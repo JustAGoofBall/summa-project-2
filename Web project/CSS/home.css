@@ -7,16 +7,31 @@ header img
 {
 width: 30%;
 }
-header ul 
+header ul
 {
-    display: inline-flex;
+    margin-top: 2%;
 }
 header ul li
 {
     display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    float: right;
+    margin-top: 2%;
+    margin-right: 2%;
 }
 header ul li a
 {
     text-decoration: none;
     list-style: none;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+header ul li a:hover
+{
+    background-color: lightcoral;
 }
