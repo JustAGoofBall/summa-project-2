@@ -1,2 +1,2 @@
 # summa-project-2
-project 2 van school 
+Dit is ons project op summa college over hoe wij een politieke partij promoten. 
