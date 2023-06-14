@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header img
+{
+width: 30%;
+}
+header ul 
+{
+    display: inline-flex;
+}
+header ul li
+{
+    display: inline-block;
+}
+header ul li a
+{
+    text-decoration: none;
+    list-style: none;
+}
