@@ -33,5 +33,27 @@ header ul li a
 }
 header ul li a:hover
 {
-    background-color: lightcoral;
+    background-color: #fff;
+}
+.container
+{
+    display: grid;
+grid-template-columns: 3fr 1fr 3fr;
+grid-template-rows: repeat(3, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+}
+.container img
+{
+    width: 75%;
+    border-radius: 75%;
+}
+body
+{
+    background: linear-gradient(210deg, #21ff51 50%, #fff 50%);
+}
+.container
+{
+    width: 100%;
+    height: 100vh;
 }
