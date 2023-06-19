@@ -13,12 +13,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $statement->bindParam(':bedrag', $bedrag);
     $statement->bindParam(':voornaam', $voornaam);
     $statement->execute();
-
-    if ($statement) {
-        echo "Payment succesfull.";
-    } else {
-        echo "Error with payment.";
-    }
 }
 ?>
 
@@ -71,6 +65,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <br>
 
                     <input type="submit" class="btn">
+                    <?php
+                    if ($statement) {
+                        echo "Payment succesfull.";
+                    } else {
+                        echo "Error with payment.";
+                    }
+                    ?>
                 </form>
             </div>
         </div>
