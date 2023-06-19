@@ -24,7 +24,9 @@
             </ul>
         </nav>
     </header>
-   
+    <main> 
+        <h1>ONZE LEDEN KUN JE HIER BEKIJKEN</h1>
+    </main>
     <footer>
         <div>
         <ul>

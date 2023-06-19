@@ -24,6 +24,15 @@
             </ul>
         </nav>
     </header>
+
+
+<div class="container4">
+    <h1>STANDPUNTEN</h1>
+    <p>Wij strijden voor een inclusieve samenleving waarin we solidair zijn met elkaar én 
+        met volgende generaties. Een eerlijk Nederland waarin we de 
+        klimaatcrisis en de wooncrisis aanpakken en zorgen voor een sterke publieke sector.</p>
+        </div>
+
     <footer>
         <div>
         <ul>
