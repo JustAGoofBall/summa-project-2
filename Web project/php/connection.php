@@ -19,7 +19,4 @@ foreach ($ports as $port) {
 if (!$conn) {
     die("Failed to connect to any port");
 }
-
-echo "Connected successfully to port " . $conn->getAttribute(PDO::ATTR_CONNECTION_STATUS);
-
 ?>
