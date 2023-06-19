@@ -15,9 +15,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $statement->execute();
 
     if ($statement) {
-        echo "Payment succesfull.";
+        echo "Data inserted successfully.";
     } else {
-        echo "Error with payment.";
+        echo "Error executing the query.";
     }
 }
 ?>
