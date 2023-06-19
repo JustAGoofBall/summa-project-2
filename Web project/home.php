@@ -58,12 +58,12 @@
 
             <div class="card">
                 <h2>Resten in graf Leipzig inderdaad van Rijksdagbrandstichter Van der Lubbe</h2>
-                <img src="Img/anderekn.jpg" alt="">
+                <img src="Img/zwart-wit.jpg" alt="">
                 <button>Lees meer</button>
             </div>
             <div class="card">
                 <h2>Ziekmelden om extreme hooikoorts, patiënten snakken naar regen</h2>
-                <img src="Img/Jasimlmao.jpg" alt="">
+                <img src="Img/vrouw_snuiten.jpg" alt="">
                 <button>Lees meer</button>
             </div>
         </div>
