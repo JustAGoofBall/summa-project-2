@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3308
--- Gegenereerd op: 14 jun 2023 om 12:12
+-- Gegenereerd op: 19 jun 2023 om 11:09
 -- Serverversie: 10.4.27-MariaDB
 -- PHP-versie: 8.0.25
 
@@ -20,6 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `groenlinks`
 --
+CREATE DATABASE IF NOT EXISTS `groenlinks` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `groenlinks`;
 
 -- --------------------------------------------------------
 
