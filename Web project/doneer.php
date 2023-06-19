@@ -1,25 +1,28 @@
 <?php
 include 'php/connection.php';
 
-if (isset($_POST['Voornaam'])) {
-    $Naam = $_POST['Voornaam'];
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $voornaam = $_POST['Voornaam'];
+    $achternaam = $_POST['Achternaam'];
+    $bedrag = $_POST['Bedrag'];
+
+    $query = "INSERT INTO donatietabel (Achternaam, Bedrag, Voornaam) VALUES (:achternaam, :bedrag, :voornaam)";
+
+    $statement = $conn->prepare($query);
+    $statement->bindParam(':achternaam', $achternaam);
+    $statement->bindParam(':bedrag', $bedrag);
+    $statement->bindParam(':voornaam', $voornaam);
+    $statement->execute();
+
+    if ($statement) {
+        echo "Data inserted successfully.";
+    } else {
+        echo "Error executing the query.";
+    }
 }
-
-if (isset($_POST['Achternaam'])) {
-    $Achter = $_POST['Achternaam'];
-}
-
-if (isset($_POST['Bedrag'])) {
-    $Bedrag = $_POST['Bedrag'];
-}
-
-
-$statement = $conn->prepare("INSERT INTO donatietabel (Voornaam, Achternaam, Bedrag) VALUES (?, ?, ?)");
-$statement->execute([$Naam, $Achter, $Bedrag]);
-
-exit();
-
 ?>
+
+
 
 
 <!DOCTYPE html>
@@ -55,7 +58,7 @@ exit();
             </div>
             <div>
                 <h1>DONEER AAN GROENLINKS</h1>
-                <form action="" id="Form2">
+                <form method="post" action="doneer.php" id="Form2">
 
                     <label for="">Voornaam</label>
                     <input type="text" name="Voornaam">
@@ -98,9 +101,9 @@ exit();
 
         <div>
             <ul>
-                <li><a href=""><i class="fa-brands fa-instagram"></a></i></li>
-                <li><a href=""><i class="fa-brands fa-facebook"></a></i></li>
-                <li><a href=""><i class="fa-brands fa-twitter"></a></i></li>
+                <li><a href="https://www.instagram.com/groenlinks/"><i class="fa-brands fa-instagram"></a></i></li>
+                <li><a href="https://www.facebook.com/groenlinks/"><i class="fa-brands fa-facebook"></a></i></li>
+                <li><a href="https://twitter.com/groenlinks"><i class="fa-brands fa-twitter"></a></i></li>
             </ul>
 
 
