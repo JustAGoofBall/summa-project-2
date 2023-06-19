@@ -34,7 +34,7 @@
         <div class="container5">
 
             <div class="card1">
-                <img src="Img/img1.jpg" alt="">
+                <img src="Img/protest_3man.jpg" alt="">
                 <h2>GROTE VERVUILERS AANPAKKEN</h2>
             </div>
             <div class="card1">
@@ -47,15 +47,15 @@
                 <h2></h2>
                 </div>
                 <div class="card1">
-                <img src="Img/Zak.jpg" alt="">
+                <img src="Img/menigte.jpg" alt="">
                 <h2>EERLIJK DELEN</h2>
                 </div>
                 <div class="card1">
-                <img src="Img/img2.jpg" alt="">
+                <img src="Img/vrouw_snuiten.jpg" alt="">
                 <h2>WERK MET WAARDERING</h2>
                 </div>
                 <div class="card1">
-               <img src="Img/img3.jpg" alt="">
+               <img src="Img/protest.jpg" alt="">
                <h2>RECHTVAARDIGE WERELD</h2>
                 </div>
         </div>

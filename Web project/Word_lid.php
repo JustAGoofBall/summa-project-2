@@ -25,7 +25,7 @@
     </header>
     <main class="main1"> 
         <div class="container3">
-        <img src="Img/12.jpg" alt="">
+        <img src="Img/groepleden.jpg" alt="">
     <h1>SLUIT JE AAN BIJ ONZE BEWEGING!</h1>
     <div class="card">
     <p>
