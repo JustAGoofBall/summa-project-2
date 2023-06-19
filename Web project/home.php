@@ -87,7 +87,7 @@
         <div class="card">
             <img src="Img/img2.jpg" alt="">
 
-            <h2>Laagere huur prijzen</h2>
+            <h2>Lagere huur prijzen</h2>
         </div>
         <div class="card">
             <img src="Img/img3.jpg" alt="">
