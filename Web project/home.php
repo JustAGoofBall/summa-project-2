@@ -81,16 +81,16 @@
 </div>
     <div class="container2">
         <div class="card">
-            <img src="Img/img1.jpg" alt="">
+            <img src="Img/protest_3man.jpg" alt="">
             <h2>Groene energie opwekken</h2>
         </div>
         <div class="card">
-            <img src="Img/img2.jpg" alt="">
+            <img src="Img/2_mensen.jpg" alt="">
 
             <h2>Lagere huur prijzen</h2>
         </div>
         <div class="card">
-            <img src="Img/img3.jpg" alt="">
+            <img src="Img/protest.jpg" alt="">
             <h2>Grote vervuilers aanpakken!</h2>
         </div>
     </div>
