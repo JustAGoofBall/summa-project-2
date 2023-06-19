@@ -106,8 +106,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <li><a href="https://www.facebook.com/groenlinks/"><i class="fa-brands fa-facebook"></a></i></li>
                 <li><a href="https://twitter.com/groenlinks"><i class="fa-brands fa-twitter"></a></i></li>
             </ul>
-
-
         </div>
     </footer>
 </body>
