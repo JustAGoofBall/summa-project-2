@@ -1,3 +1,25 @@
+<?php
+    include 'php/connection.php';
+    
+    if (isset($_POST['Voornaam'])) {
+        $Naam = $_POST['Voornaam'];}
+
+        if (isset($_POST['Achternaam'])) {
+            $Achter = $_POST['Achternaam'];}
+
+            if (isset($_POST['Bedrag'])) {
+                $Bedrag = $_POST['Bedrag'];}
+                
+
+                $statement = $conn->prepare("INSERT INTO donatietabel (Voornaam, Achternaam, Bedrag) VALUES (?, ?, ?)");
+                $statement->execute([$Naam, $Achter, $Bedrag]);
+            
+                header("Location: index.php");
+                exit();
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="nl">
 
@@ -34,13 +56,13 @@
                 <form action="" id="Form2">
 
                 <label for="">Voornaam</label>
-                <input type="text">
+                <input type="text" name="Voornaam">
 
                 <label for="">Achternaam</label>    
-                <input type="text">
+                <input type="text" name="Achternaam">
 
                 <label for="">Bedrag</label>
-                <input type="number">
+                <input type="number" name="Bedrag">
         <br>
        
                 <input type="submit" class="btn">
