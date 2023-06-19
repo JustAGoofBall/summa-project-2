@@ -24,15 +24,43 @@
             </ul>
         </nav>
     </header>
+    <main class="ee">
 
-
-<div class="container4">
     <h1>STANDPUNTEN</h1>
     <p>Wij strijden voor een inclusieve samenleving waarin we solidair zijn met elkaar én 
         met volgende generaties. Een eerlijk Nederland waarin we de 
         klimaatcrisis en de wooncrisis aanpakken en zorgen voor een sterke publieke sector.</p>
+
+        <div class="container5">
+
+            <div class="card1">
+                <img src="Img/img1.jpg" alt="">
+                <h2>GROTE VERVUILERS AANPAKKEN</h2>
+            </div>
+            <div class="card1">
+                <img src="Img/Woon.jpg" alt="">
+                <h2>WOONZORG VOOR IEDEREEN</h2>
+                </div>
+                <div class="card1">
+                <img src="Img/HUID.jpg" alt="">
+                <h2>GELIJKWAARDIGHEID</h2>
+                <h2></h2>
+                </div>
+                <div class="card1">
+                <img src="Img/Zak.jpg" alt="">
+                <h2>EERLIJK DELEN</h2>
+                </div>
+                <div class="card1">
+                <img src="Img/img2.jpg" alt="">
+                <h2>WERK MET WAARDERING</h2>
+                </div>
+                <div class="card1">
+               <img src="Img/img3.jpg" alt="">
+               <h2>RECHTVAARDIGE WERELD</h2>
+                </div>
         </div>
 
+        </main>
     <footer>
         <div>
         <ul>
