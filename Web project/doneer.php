@@ -1,21 +1,23 @@
 <?php
-    include 'php/connection.php';
+include 'php/connection.php';
 
-    if (isset($_POST['Voornaam'])) {
-        $Naam = $_POST['Voornaam'];}
+if (isset($_POST['Voornaam'])) {
+    $Naam = $_POST['Voornaam'];
+}
 
-        if (isset($_POST['Achternaam'])) {
-            $Achter = $_POST['Achternaam'];}
+if (isset($_POST['Achternaam'])) {
+    $Achter = $_POST['Achternaam'];
+}
 
-            if (isset($_POST['Bedrag'])) {
-                $Bedrag = $_POST['Bedrag'];}
-                
+if (isset($_POST['Bedrag'])) {
+    $Bedrag = $_POST['Bedrag'];
+}
 
-                $statement = $conn->prepare("INSERT INTO donatietabel (Voornaam, Achternaam, Bedrag) VALUES (?, ?, ?)");
-                $statement->execute([$Naam, $Achter, $Bedrag]);
-            
-                header("Location: index.php");
-                exit();
+
+$statement = $conn->prepare("INSERT INTO donatietabel (Voornaam, Achternaam, Bedrag) VALUES (?, ?, ?)");
+$statement->execute([$Naam, $Achter, $Bedrag]);
+
+exit();
 
 ?>
 
@@ -46,52 +48,52 @@
             </ul>
         </nav>
     </header>
-    <main> 
+    <main>
         <div class="container4">
             <div>
-            <img src="Img/protest_3man.jpg" alt="">
+                <img src="Img/protest_3man.jpg" alt="">
             </div>
             <div>
                 <h1>DONEER AAN GROENLINKS</h1>
                 <form action="" id="Form2">
 
-                <label for="">Voornaam</label>
-                <input type="text" name="Voornaam">
+                    <label for="">Voornaam</label>
+                    <input type="text" name="Voornaam">
 
-                <label for="">Achternaam</label>    
-                <input type="text" name="Achternaam">
+                    <label for="">Achternaam</label>
+                    <input type="text" name="Achternaam">
 
-                <label for="">Bedrag</label>
-                <input type="number" name="Bedrag">
-        <br>
-       
-                <input type="submit" class="btn">
+                    <label for="">Bedrag</label>
+                    <input type="number" name="Bedrag">
+                    <br>
+
+                    <input type="submit" class="btn">
                 </form>
             </div>
         </div>
     </main>
     <footer>
         <div>
-        <ul>
-            <li><a href="home.php">Home</a></li>
-            <li><a href="Word_lid.php">Word Lid</a></li>
-            <li><a href="doneer.php">Doneer</a></li>
-        </ul>
+            <ul>
+                <li><a href="home.php">Home</a></li>
+                <li><a href="Word_lid.php">Word Lid</a></li>
+                <li><a href="doneer.php">Doneer</a></li>
+            </ul>
         </div>
 
         <div>
-        <ul>
-            <li><a href="leden.php">Onze Leden</a></li>
-            <li><a href="standpunten.php">Standpunten</a></li>
-            <li><a href="contact_us.php">Contact Us</a></li>
-        </ul>
+            <ul>
+                <li><a href="leden.php">Onze Leden</a></li>
+                <li><a href="standpunten.php">Standpunten</a></li>
+                <li><a href="contact_us.php">Contact Us</a></li>
+            </ul>
         </div>
 
         <div>
-        <ul>
-            <li><a href="">Adres</a></li>
-            <li><a href="">Telefoonummer</a></li>
-        </ul>
+            <ul>
+                <li><a href="">Adres</a></li>
+                <li><a href="">Telefoonummer</a></li>
+            </ul>
         </div>
 
         <div>
@@ -100,8 +102,8 @@
                 <li><a href=""><i class="fa-brands fa-facebook"></a></i></li>
                 <li><a href=""><i class="fa-brands fa-twitter"></a></i></li>
             </ul>
-        
-        
+
+
         </div>
     </footer>
 </body>

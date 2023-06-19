@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.1
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
--- Gegenereerd op: 19 jun 2023 om 11:17
--- Serverversie: 10.4.28-MariaDB
--- PHP-versie: 8.2.4
+-- Host: localhost:3308
+-- Gegenereerd op: 19 jun 2023 om 13:09
+-- Serverversie: 10.4.27-MariaDB
+-- PHP-versie: 8.0.25
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -20,6 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `groenlinks`
 --
+CREATE DATABASE IF NOT EXISTS `groenlinks` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+USE `groenlinks`;
 
 -- --------------------------------------------------------
 
@@ -28,10 +30,10 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `donatietabel` (
-  `Gebruikers-ID` int(11) NOT NULL,
-  `Voornaam` text NOT NULL,
-  `Achternaam` text NOT NULL,
-  `Bedrag` int(11) NOT NULL
+  `Achternaam` varchar(60) NOT NULL,
+  `Voornaam` varchar(60) NOT NULL,
+  `Bedrag` int(11) NOT NULL,
+  `Gebruiker-ID` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 -- --------------------------------------------------------
@@ -42,11 +44,11 @@ CREATE TABLE `donatietabel` (
 
 CREATE TABLE `gebruikerstabel` (
   `Gebruikers-ID` int(11) NOT NULL,
-  `Voornaam` text NOT NULL,
-  `Achternaam` text NOT NULL,
-  `E-mailadres` text NOT NULL,
-  `Adres` text NOT NULL,
-  `telefoonummer` text NOT NULL,
+  `Voornaam` varchar(30) NOT NULL,
+  `Achternaam` varchar(60) NOT NULL,
+  `E-mailadres` varchar(60) NOT NULL,
+  `Adres` varchar(60) NOT NULL,
+  `telefoonummer` varchar(20) NOT NULL,
   `Woonplaats` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
@@ -58,7 +60,7 @@ CREATE TABLE `gebruikerstabel` (
 -- Indexen voor tabel `donatietabel`
 --
 ALTER TABLE `donatietabel`
-  ADD PRIMARY KEY (`Gebruikers-ID`);
+  ADD PRIMARY KEY (`Gebruiker-ID`);
 
 --
 -- Indexen voor tabel `gebruikerstabel`
@@ -74,7 +76,7 @@ ALTER TABLE `gebruikerstabel`
 -- AUTO_INCREMENT voor een tabel `donatietabel`
 --
 ALTER TABLE `donatietabel`
-  MODIFY `Gebruikers-ID` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `Gebruiker-ID` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT voor een tabel `gebruikerstabel`
