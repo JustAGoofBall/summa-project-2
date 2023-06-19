@@ -1,6 +1,6 @@
 <?php
     include 'php/connection.php';
-    
+
     if (isset($_POST['Voornaam'])) {
         $Naam = $_POST['Voornaam'];}
 

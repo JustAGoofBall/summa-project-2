@@ -5,7 +5,6 @@ $username = "root";
 $password = "";
 $dbname = "groenlinks";
 
-$conn = null;
 
 foreach ($ports as $port) {
     try {
@@ -23,5 +22,4 @@ if (!$conn) {
 
 echo "Connected successfully to port " . $conn->getAttribute(PDO::ATTR_CONNECTION_STATUS);
 
-$conn = null;
 ?>
