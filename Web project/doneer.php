@@ -63,10 +63,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                     <input type="submit" class="btn">
                     <?php
-                    if ($statement) {
-                        echo "Payment succesfull.";
-                    } else {
-                        echo "Error with payment.";
+                    if (isset($statement)) {
+                        if ($statement) {
+                            echo "Payment successful.";
+                        } else {
+                            echo "Error with payment.";
+                        }
                     }
                     ?>
                 </form>
