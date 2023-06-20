@@ -1,13 +1,14 @@
-<?php include 'php/connection.php'?>
+<?php include 'php/connection.php' ?>
 
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GroenLinks</title>
-    <link rel="stylesheet" type="text/CSS" href="CSS/home.css">
+    <link rel="stylesheet" type="text/CSS" href="CSS/universal.css">
     <script src="https://kit.fontawesome.com/a4d79bb58d.js" crossorigin="anonymous"></script>
 
 </head>
@@ -35,11 +36,11 @@
         <br>
         <br>
         <br>
-        <br>   
+        <br>
         <br>
         <div class="nieuws">
-        <h2>NIEUWS</h2>
-    </div>
+            <h2>NIEUWS</h2>
+        </div>
         <div class="container1">
             <div class="card">
                 <h2>Kleinere bierbrouwers hebben het zwaar door hoge kosten
@@ -68,59 +69,59 @@
             </div>
         </div>
         <div class="LEEES">
-        <button class="Lees">LEES MEER</button>
-    </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div class="standpunten">
-    <h2>HIER STAAN WIJ VOOR</h2>
-</div>
-    <div class="container2">
-        <div class="card">
-            <img src="Img/protest_3man.jpg" alt="">
-            <h2>Groene energie opwekken</h2>
+            <button class="Lees">LEES MEER</button>
         </div>
-        <div class="card">
-            <img src="Img/2_mensen.jpg" alt="">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="standpunten">
+            <h2>HIER STAAN WIJ VOOR</h2>
+        </div>
+        <div class="container2">
+            <div class="card">
+                <img src="Img/protest_3man.jpg" alt="">
+                <h2>Groene energie opwekken</h2>
+            </div>
+            <div class="card">
+                <img src="Img/2_mensen.jpg" alt="">
 
-            <h2>Lagere huur prijzen</h2>
+                <h2>Lagere huur prijzen</h2>
+            </div>
+            <div class="card">
+                <img src="Img/protest.jpg" alt="">
+                <h2>Grote vervuilers aanpakken!</h2>
+            </div>
         </div>
-        <div class="card">
-            <img src="Img/protest.jpg" alt="">
-            <h2>Grote vervuilers aanpakken!</h2>
+        <div class="LEEES">
+            <button class="Lees">Bekijk hier al onze standpunten</button>
         </div>
-    </div>
-    <div class="LEEES">
-    <button class="Lees">Bekijk hier al onze standpunten</button>
-</div>
     </main>
-    
+
     <footer>
         <div>
-        <ul>
-            <li><a href="home.php">Home</a></li>
-            <li><a href="Word_lid.php">Word Lid</a></li>
-            <li><a href="doneer.php">Doneer</a></li>
-        </ul>
+            <ul>
+                <li><a href="home.php">Home</a></li>
+                <li><a href="Word_lid.php">Word Lid</a></li>
+                <li><a href="doneer.php">Doneer</a></li>
+            </ul>
         </div>
 
         <div>
-        <ul>
-            <li><a href="leden.php">Onze Leden</a></li>
-            <li><a href="standpunten.php">Standpunten</a></li>
-            <li><a href="contact_us.php">Contact Us</a></li>
-        </ul>
+            <ul>
+                <li><a href="leden.php">Onze Leden</a></li>
+                <li><a href="standpunten.php">Standpunten</a></li>
+                <li><a href="contact_us.php">Contact Us</a></li>
+            </ul>
         </div>
 
         <div>
-        <ul>
-            <li><a href="">Adres</a></li>
-            <li><a href="">Telefoonummer</a></li>
-        </ul>
+            <ul>
+                <li><a href="">Adres</a></li>
+                <li><a href="">Telefoonummer</a></li>
+            </ul>
         </div>
 
         <div>

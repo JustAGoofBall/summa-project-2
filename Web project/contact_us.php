@@ -7,7 +7,6 @@ if (isset($_POST['submit'])) {
     } else {
         echo '<script> alert("error"); </script>';
     }
-    
 }
 ?>
 
