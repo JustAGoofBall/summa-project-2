@@ -25,9 +25,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $statement->bindParam(':voornaam', $voornaam);
     $statement->execute();
 
+    if ($statement->execute()) {
+        echo '<script> alert("Payment successful.") </script>';
+    } else {
+        echo '<script> alert("Error.") </script>';
+    }
 
-    header('Location: doneer.php');
-    exit();
 }
 ?>
 
@@ -76,15 +79,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <br>
 
                     <input type="submit" class="btn">
-                    <?php
-                    if (isset($statement)) {
-                        if ($statement) {
-                            echo "Payment successful.";
-                        } else {
-                            echo "Error with payment.";
-                        }
-                    }
-                    ?>
+                    
                     <br>
 
                 </form>
@@ -103,7 +98,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             <?php foreach ($input as $inputs) : ?>
                                 <tr>
                                     <td><?php echo $inputs['Voornaam'], ' ', $inputs['Achternaam']; ?></td>
-                                    <td><?php echo $inputs['Bedrag']; ?></td>
+                                    <td><?php echo $inputs['Bedrag'], '€'; ?></td>
                                 </tr>
                             <?php endforeach; ?>
                         </tbody>

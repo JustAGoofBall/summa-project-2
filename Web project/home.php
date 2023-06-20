@@ -274,7 +274,7 @@ Ter Beest kan in ieder geval niet wachten tot de eerste druppels vallen: "Het is
             </div>
         </div>
         <div class="LEEES">
-            <button class="Lees">Bekijk hier al onze standpunten</button>
+            <span  class="btn1"><a href="standpunten.php">Bekijk hier al onze standpunten</a></span>
         </div>
     </main>
 
