@@ -3,16 +3,19 @@ include 'php/connection.php';
 
 $input = [];
 $statement1 = $conn->query("SELECT Voornaam, Achternaam, Bedrag FROM donatietabel ORDER BY Bedrag DESC LIMIT 5");
-    $input = $statement1->fetchAll(PDO::FETCH_ASSOC);
+$input = $statement1->fetchAll(PDO::FETCH_ASSOC);
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (isset($_POST['Voornaam'])) {
-        $voornaam = $_POST['Voornaam'];}
+        $voornaam = $_POST['Voornaam'];
+    }
 
-        if (isset($_POST['Achternaam'])) {
-            $achternaam = $_POST['Achternaam'];}
+    if (isset($_POST['Achternaam'])) {
+        $achternaam = $_POST['Achternaam'];
+    }
 
-            if (isset($_POST['Bedrag'])) {
-                $bedrag = $_POST['Bedrag'];}
+    if (isset($_POST['Bedrag'])) {
+        $bedrag = $_POST['Bedrag'];
+    }
 
     $query = "INSERT INTO donatietabel (Achternaam, Bedrag, Voornaam) VALUES (:achternaam, :bedrag, :voornaam)";
 
@@ -22,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $statement->bindParam(':voornaam', $voornaam);
     $statement->execute();
 
-    
+
     header('Location: doneer.php');
     exit();
 }
@@ -84,33 +87,33 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     }
                     ?>
                     <br>
-                 
+
                 </form>
                 <div class="container6">
-                <h2>TOP 5 DONATORS</h2>
+                    <h2>TOP 5 DONATORS</h2>
 
-                <table class="myTable">
+                    <table class="myTable">
 
-                    <thead>
-                        <tr>
-                            <th>Naam</th>
-                            <th>Bedrag</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <?php foreach ($input as $inputs): ?>
+                        <thead>
                             <tr>
-                                <td><?php echo $inputs['Voornaam'], ' ' , $inputs['Achternaam']; ?></td>
-                                <td><?php echo $inputs['Bedrag']; ?></td>
+                                <th>Naam</th>
+                                <th>Bedrag</th>
                             </tr>
-                        <?php endforeach; ?>
-                    </tbody>
-                </table>
+                        </thead>
+                        <tbody>
+                            <?php foreach ($input as $inputs) : ?>
+                                <tr>
+                                    <td><?php echo $inputs['Voornaam'], ' ', $inputs['Achternaam']; ?></td>
+                                    <td><?php echo $inputs['Bedrag']; ?></td>
+                                </tr>
+                            <?php endforeach; ?>
+                        </tbody>
+                    </table>
                 </div>
             </div>
-             
+
         </div>
-        
+
     </main>
     <footer>
         <div>
