@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Onze leden</title>
     <link rel="stylesheet" type="text/CSS" href="CSS/alles.css">
+    <link rel="stylesheet" type="text/CSS" href="CSS/leden.css">
+
     <script src="https://kit.fontawesome.com/a4d79bb58d.js" crossorigin="anonymous"></script>
 
 </head>
