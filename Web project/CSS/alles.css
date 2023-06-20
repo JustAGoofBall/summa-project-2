@@ -354,7 +354,7 @@ input[type=date] {
 {
     position: fixed;
     width: 100vw;
-    height: 120vh;
+    height: 100vh;
     background-color: rgba(0,0,0,0.7);
     z-index:1;
     display: flex;
@@ -364,26 +364,175 @@ input[type=date] {
     transform: scale(0);
 
 }
+.popup-container2
+{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    z-index:1;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+
+}
+.popup-container3
+{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    z-index:1;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+
+}
+
+.popup-container4
+{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    z-index:1;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+
+}
+
 .popup
 {
     position: relative;
-    bottom: 25%;
     width: 50%;
-    height: 50%;
+    height: 100%;
     background: #fff;
     display: flex;
     z-index: 2;
     flex-direction: column;
     text-align: center;
-    justify-content: center;
+    overflow-y: scroll;
 
 }
 .popup img
 {
-    width: 50%;
+    width: 100%;
+    height: 50%;
     position: relative;
-    left: 25
-;
+
+}
+
+.popup2
+{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    z-index: 2;
+    flex-direction: column;
+    text-align: center;
+    overflow-y: scroll;
+
+}
+.popup2 img
+{
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+
+.popup3
+{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    z-index: 2;
+    flex-direction: column;
+    text-align: center;
+    overflow-y: scroll;
+
+}
+.popup3 img
+{
+    width: 100%;
+    height: 50%;
+    position: relative;
+
+}
+
+.popup4
+{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: #fff;
+    display: flex;
+    z-index: 2;
+    flex-direction: column;
+    text-align: center;
+    overflow-y: scroll;
+
+}
+.popup4 img
+{
+    width: 100%;
+    height: 50%;
+    position: relative;
+
+}
+
+#img3
+{
+    height: 100%;
+}
+#close
+{
+    color: #ef233c;
+
+}
+#close:hover
+{
+    cursor: pointer;
+}
+
+#close1
+{
+    color: #ef233c;
+
+}
+#close1:hover
+{
+    cursor: pointer;
+}
+
+#close2
+{
+    color: #ef233c;
+
+}
+#close2:hover
+{
+    cursor: pointer;
+}
+
+#close3
+{
+    color: #ef233c;
+
+}
+#close3:hover
+{
+    cursor: pointer;
 }
 
 .popup-container.active
@@ -391,55 +540,19 @@ input[type=date] {
 transform: scale(1);
     transition: all 800ms ease;  
 }
-/*.popup .overlay
-{
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0,0,0,0.7);
-    z-index:1;
-    display: block;
-}
-.popup .content
-{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(1);
-    background: #fff;
-    width: 450px;
-    height: 220px;
-    z-index: 2;
-    text-align: center;
-    padding: 20px;
-    box-sizing: border-box;
-}
 
-.popup .close-btn
+.popup-container2.active1
 {
-    position: relative;
-    right: 20px;
-    top: 20px;
-    width: 30px;
-    height: 30px;
-    background-color: #222;
-    color: #fff;
-    font-size: 25px;
-    font-weight: 600;
-    line-height: 30px;
-    text-align: center;
-    border-radius: 50%;
+    transform: scale(1);
+    transition: all 800ms ease;  
 }
-
-.popup.active .overlay
+.popup-container3.active2
 {
-display: block;
+    transform: scale(1);
+    transition: all 800ms ease;  
 }
-
-/*.popup.active .content
+.popup-container4.active3
 {
-    transform: translate(-50%, -50%) scale(1);
-    transition: all 800ms ease;
-
+    transform: scale(1);
+    transition: all 800ms ease;  
 }
-/* popups*/
