@@ -56,14 +56,6 @@ if (isset($_POST['submit'])) {
             <input type="submit" class="btn">
         </form>
 
-<<<<<<< Updated upstream
-=======
-        <label for="">Bericht:</label>
-        <textarea name="bericht" id="bericht" cols="30" rows="10" required></textarea>
-        <input type="submit" class="btn" name="submit">
-    </form>
-    
->>>>>>> Stashed changes
     </main>
     <footer>
         <div>
