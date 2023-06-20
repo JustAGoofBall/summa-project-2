@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/CSS" href="CSS/standpunten.css">
     <title>Standpunten</title>
-    <link rel="stylesheet" type="text/CSS" href="CSS/home.css">
+    <link rel="stylesheet" type="text/CSS" href="CSS/universal.css">
     <script src="https://kit.fontawesome.com/a4d79bb58d.js" crossorigin="anonymous"></script>
 
 </head>

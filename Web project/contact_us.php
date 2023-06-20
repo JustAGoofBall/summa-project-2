@@ -18,7 +18,7 @@ if (isset($_POST['submit'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <link rel="stylesheet" type="text/CSS" href="CSS/home.css">
+    <link rel="stylesheet" type="text/CSS" href="CSS/universal.css">
     <script src="https://kit.fontawesome.com/a4d79bb58d.js" crossorigin="anonymous"></script>
 
 </head>
@@ -37,7 +37,7 @@ if (isset($_POST['submit'])) {
         </nav>
     </header>
     <main class="mainitto">
-
+        <h1>Contact Us</h1>
         <form action="contact_us.php" method="POST" id="Form">
 
             <label for="Voornaam">Voornaam:</label>

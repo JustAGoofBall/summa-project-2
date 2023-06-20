@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/CSS" href="CSS/leden.css">
     <title>Onze leden</title>
-    <link rel="stylesheet" type="text/CSS" href="CSS/home.css">
+    <link rel="stylesheet" type="text/CSS" href="CSS/universal.css">
     <script src="https://kit.fontawesome.com/a4d79bb58d.js" crossorigin="anonymous"></script>
 
 </head>
@@ -25,7 +25,7 @@
         </nav>
     </header>
     <main>
-        <h1>ONZE LEDEN KUN JE HIER BEKIJKEN</h1>
+        <h1>ONZE LEDEN</h1>
         <h2>Eerste kamer</h2>
         <div class="eerstekamer-leden">
             <div class="card">

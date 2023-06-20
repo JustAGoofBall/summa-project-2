@@ -39,7 +39,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/CSS" href="CSS/doneer.css">
     <title>doneer</title>
-    <link rel="stylesheet" type="text/CSS" href="CSS/home.css">
+    <link rel="stylesheet" type="text/CSS" href="CSS/universal.css">
     <script src="https://kit.fontawesome.com/a4d79bb58d.js" crossorigin="anonymous"></script>
 
 </head>
