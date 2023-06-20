@@ -87,22 +87,20 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                  
                 </form>
                 <div class="container6">
-                <h2>TOP DONATORS</h2>
+                <h2>TOP 5 DONATORS</h2>
 
                 <table class="myTable">
 
                     <thead>
                         <tr>
-                            <th>Voornaam</th>
-                            <th>Achternaam</th>
+                            <th>Naam</th>
                             <th>Bedrag</th>
                         </tr>
                     </thead>
                     <tbody>
                         <?php foreach ($input as $inputs): ?>
                             <tr>
-                                <td><?php echo $inputs['Voornaam']; ?></td>
-                                <td><?php echo $inputs['Achternaam']; ?></td>
+                                <td><?php echo $inputs['Voornaam'], ' ' , $inputs['Achternaam']; ?></td>
                                 <td><?php echo $inputs['Bedrag']; ?></td>
                             </tr>
                         <?php endforeach; ?>
