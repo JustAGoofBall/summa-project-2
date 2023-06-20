@@ -14,8 +14,8 @@
 <body>
     <header>
         <nav>
+            <a href="home.php"><img src="Img/GroenLinks_logo.png" alt=""></a>
             <ul>
-                <a href="home.php"><img src="Img/GroenLinks_logo.png" alt=""></a>
                 <li><a href="standpunten.php">Standpunten</a></li>
                 <li><a href="leden.php">Onze leden</a></li>
                 <li><a href="doneer.php">Doneer</a></li>
@@ -29,35 +29,35 @@
         <h2>Eerste kamer</h2>
         <div class="eerstekamer-leden">
             <div class="card">
-                <img src="ledenfoto's/Eerstekamer/Paul Rosenmöller_portret_.jpg" alt="">
+                <img src="ledenfoto's/Eerstekamer/Paul_Rosenmöller_portret_.jpg" alt="">
                 <p>Paul Rosenmöller</p>
             </div>
             <div class="card">
-                <img src="ledenfoto's/Eerstekamer/Farah Karimi.jpg" alt="">
+                <img src="ledenfoto's/Eerstekamer/Farah_Karimi.jpg" alt="">
                 <p>Farah Karimi</p>
             </div>
             <div class="card">
-                <img src="ledenfoto's/Eerstekamer/Gala Veldhoen Eerste Kamer.jpg" alt="">
+                <img src="ledenfoto's/Eerstekamer/Gala_Veldhoen_Eerste_Kamer.jpg" alt="">
                 <p>Gala Veldhoen</p>
             </div>
             <div class="card">
-                <img src="ledenfoto's/Eerstekamer/Margreet de Boer.jpg" alt="">
+                <img src="ledenfoto's/Eerstekamer/Margreet_de_Boer.jpg" alt="">
                 <p>Margreet de Boer</p>
             </div>
             <div class="card">
-                <img src="ledenfoto's/Eerstekamer/Mirjam Krijnen.jpeg" alt="">
+                <img src="ledenfoto's/Eerstekamer/Mirjam_Krijnen.jpeg" alt="">
                 <p>Mirjam Krijnen</p>
             </div>
             <div class="card">
-                <img src="ledenfoto's/Eerstekamer/Roel van Gurp.jpg" alt="">
+                <img src="ledenfoto's/Eerstekamer/Roel_van_Gurp.jpg" alt="">
                 <p>Roel van Gurp</p>
             </div>
             <div class="card">
-                <img src="ledenfoto's/Eerstekamer/Ruard Ganzevoort.jpg" alt="">
+                <img src="ledenfoto's/Eerstekamer/Ruard_Ganzevoort.jpg" alt="">
                 <p>Ruard Ganzevoort</p>
             </div>
             <div class="card">
-                <img src="ledenfoto's/Eerstekamer/Saskia Kluit.jpg" alt="">
+                <img src="ledenfoto's/Eerstekamer/Saskia_Kluit.jpg" alt="">
                 <p>Saskia Kluit</p>
             </div>
         </div>
@@ -69,52 +69,52 @@
             </div>
 
             <div class="card">
-                <img src="ledenfoto's/Tweedekamer/Corinne Ellemeet_ portret.jpg" alt="">
+                <img src="ledenfoto's/Tweedekamer/Corinne_Ellemeet_portret.jpg" alt="">
                 <p>Corinne Ellemeet</p>
             </div>
 
             <div class="card">
-                <img src="ledenfoto's/Tweedekamer/Kauthar_Lotte_Dale (10).jpg" alt="">
+                <img src="ledenfoto's/Tweedekamer/Kauthar_Lotte_Dale.jpg" alt="">
                 <p>Kauthar Bouchallikht</p>
             </div>
 
             <div class="card">
-                <img src="ledenfoto's/Tweedekamer/Laura Bromet_4.jpg" alt="">
+                <img src="ledenfoto's/Tweedekamer/Laura_Bromet.jpg" alt="">
                 <p>Laura Bromet</p>
             </div>
 
             <div class="card">
-                <img src="ledenfoto's/Tweedekamer/Lisa Westerveld portret.jpg" alt="">
+                <img src="ledenfoto's/Tweedekamer/Lisa_Westerveld_portret.jpg" alt="">
                 <p>Lisa Westerveld</p>
             </div>
 
             <div class="card">
-                <img src="ledenfoto's/Tweedekamer/Senna Maatoug_Portret 1a.jpg" alt="">
+                <img src="ledenfoto's/Tweedekamer/Senna_Maatoug_Portret.jpg" alt="">
                 <p>Senna Maatoug</p>
             </div>
 
             <div class="card">
-                <img src="ledenfoto's/Tweedekamer/Suzanne Kröger_portret.jpg" alt="">
-                <p>Suzanne Kröger</p>
+                <img src="ledenfoto's/Tweedekamer/Suzanne_Kroger_portret.jpg" alt="">
+                <p>Suzanne Kroger</p>
             </div>
 
             <div class="card">
-                <img src="ledenfoto's/Tweedekamer/Tom van der Lee_4.jpg" alt="">
+                <img src="ledenfoto's/Tweedekamer/Tom_van_der_Lee.jpg" alt="">
                 <p>Tom van der Lee</p>
             </div>
         </div>
         <h4>Europees parlement</h4>
         <div class="Europees-parlement">
             <div class="card">
-                <img src="ledenfoto's/Europees-parlement/Bas Eickhout.jpg" alt="">
+                <img src="ledenfoto's/Europees-parlement/Bas_Eickhout.jpg" alt="">
                 <p>Bas Eickhout</p>
             </div>
             <div class="card">
-                <img src="ledenfoto's/Europees-parlement/Kim van Sparrentak.jpg" alt="">
+                <img src="ledenfoto's/Europees-parlement/Kim_van_Sparrentak.jpg" alt="">
                 <p>Kim van Sparrentak</p>
             </div>
             <div class="card">
-                <img src="ledenfoto's/Europees-parlement/Tineke Strik.jpg" alt="">
+                <img src="ledenfoto's/Europees-parlement/Tineke_Strik.jpg" alt="">
                 <p>Tineke Strik</p>
             </div>
         </div>
@@ -145,9 +145,9 @@
 
         <div>
             <ul>
-                <li><a href="https://www.instagram.com/groenlinks/"><i class="fa-brands fa-instagram"></a></i></li>
-                <li><a href="https://www.facebook.com/groenlinks/"><i class="fa-brands fa-facebook"></a></i></li>
-                <li><a href="https://twitter.com/groenlinks"><i class="fa-brands fa-twitter"></a></i></li>
+                <li><a href="https://www.instagram.com/groenlinks/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/groenlinks/"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/groenlinks"><i class="fa-brands fa-twitter"></i></a></li>
             </ul>
         </div>
     </footer>

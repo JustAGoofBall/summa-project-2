@@ -44,8 +44,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body>
     <header>
         <nav>
+            <a href="home.php"><img src="Img/GroenLinks_logo.png" alt=""></a>
             <ul>
-                <a href="home.php"><img src="Img/GroenLinks_logo.png" alt=""></a>
                 <li><a href="standpunten.php">Standpunten</a></li>
                 <li><a href="leden.php">Onze leden</a></li>
                 <li><a href="doneer.php">Doneer</a></li>
@@ -63,14 +63,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <h1>DONEER AAN GROENLINKS</h1>
                 <form method="POST" action="doneer.php" id="Form2">
 
-                    <label for="">Voornaam</label>
-                    <input type="text" name="Voornaam" required>
+                    <label for="Voornaam">Voornaam</label>
+                    <input type="text" name="Voornaam" id="Voornaam" required>
 
-                    <label for="">Achternaam</label>
-                    <input type="text" name="Achternaam" required>
+                    <label for="Achternaam">Achternaam</label>
+                    <input type="text" name="Achternaam" id="Achternaam" required>
 
-                    <label for="">Bedrag</label>
-                    <input type="number" name="Bedrag" required>
+                    <label for="Bedrag">Bedrag</label>
+                    <input type="number" name="Bedrag" id="Bedrag" required>
                     <br>
 
                     <input type="submit" class="btn">
@@ -138,9 +138,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
         <div>
             <ul>
-                <li><a href="https://www.instagram.com/groenlinks/"><i class="fa-brands fa-instagram"></a></i></li>
-                <li><a href="https://www.facebook.com/groenlinks/"><i class="fa-brands fa-facebook"></a></i></li>
-                <li><a href="https://twitter.com/groenlinks"><i class="fa-brands fa-twitter"></a></i></li>
+                <li><a href="https://www.instagram.com/groenlinks/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/groenlinks/"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/groenlinks"><i class="fa-brands fa-twitter"></i></a></li>
             </ul>
         </div>
     </footer>

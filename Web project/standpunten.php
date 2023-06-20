@@ -14,8 +14,8 @@
 <body>
     <header>
         <nav>
+            <a href="home.php"><img src="Img/GroenLinks_logo.png" alt=""></a>
             <ul>
-                <a href="home.php"><img src="Img/GroenLinks_logo.png" alt=""></a>
                 <li><a href="standpunten.php">Standpunten</a></li>
                 <li><a href="leden.php">Onze leden</a></li>
                 <li><a href="doneer.php">Doneer</a></li>
@@ -44,7 +44,6 @@
                 <div class="card1">
                 <img src="Img/HUID.jpg" alt="">
                 <h2>GELIJKWAARDIGHEID</h2>
-                <h2></h2>
                 </div>
                 <div class="card1">
                 <img src="Img/menigte.jpg" alt="">
@@ -87,9 +86,9 @@
 
         <div>
             <ul>
-                <li><a href="https://www.instagram.com/groenlinks/"><i class="fa-brands fa-instagram"></a></i></li>
-                <li><a href="https://www.facebook.com/groenlinks/"><i class="fa-brands fa-facebook"></a></i></li>
-                <li><a href="https://twitter.com/groenlinks"><i class="fa-brands fa-twitter"></a></i></li>
+                <li><a href="https://www.instagram.com/groenlinks/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/groenlinks/"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/groenlinks"><i class="fa-brands fa-twitter"></i></a></li>
             </ul>
         </div>
     </footer>

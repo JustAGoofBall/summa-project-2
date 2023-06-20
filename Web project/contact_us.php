@@ -13,8 +13,8 @@
 <body>
     <header>
         <nav>
+            <a href="home.php"><img src="Img/GroenLinks_logo.png" alt=""></a>
             <ul>
-                <a href="home.php"><img src="Img/GroenLinks_logo.png" alt=""></a>
                 <li><a href="standpunten.php">Standpunten</a></li>
                 <li><a href="leden.php">Onze leden</a></li>
                 <li><a href="doneer.php">Doneer</a></li>
@@ -25,55 +25,54 @@
     </header>
     <main class="mainitto">
 
-        <form action="" method="POST" id="Form">
+        <form action="contact_us.php" method="POST" id="Form">
 
-        <label for="">Voornaam:</label>    
-        <input type="text" name="Voornaam" required>
-        
-        <label for="">Achternaam:</label>
-        <input type="text" name="Achternaam" required >
-  
-        <label for="">e-mail:</label>
-        <input type="email" name="e-mail" required>
+            <label for="Voornaam">Voornaam:</label>
+            <input type="text" name="Voornaam" id="Voornaam" required>
 
-        <label for="">Bericht:</label>
-        <textarea name="bericht" id="bericht" cols="30" rows="10" required></textarea>
-        <input type="submit" class="btn">
-    </form>
-    
+            <label for="Achternaam">Achternaam:</label>
+            <input type="text" name="Achternaam" id="Achternaam" required>
+
+            <label for="e-mail">e-mail:</label>
+            <input type="email" name="e-mail" id="e-mail" required>
+
+
+            <label for="bericht">Bericht:</label>
+            <textarea name="bericht" id="bericht" cols="30" rows="10" required></textarea>
+            <input type="submit" class="btn">
+        </form>
+
     </main>
     <footer>
         <div>
-        <ul>
-            <li><a href="home.php">Home</a></li>
-            <li><a href="Word_lid.php">Word Lid</a></li>
-            <li><a href="doneer.php">Doneer</a></li>
-        </ul>
-        </div>
-
-        <div>
-        <ul>
-            <li><a href="leden.php">Onze Leden</a></li>
-            <li><a href="standpunten.php">Standpunten</a></li>
-            <li><a href="contact_us.php">Contact Us</a></li>
-        </ul>
-        </div>
-
-        <div>
-        <ul>
-            <li><a href="">Adres</a></li>
-            <li><a href="">Telefoonummer</a></li>
-        </ul>
+            <ul>
+                <li><a href="home.php">Home</a></li>
+                <li><a href="Word_lid.php">Word Lid</a></li>
+                <li><a href="doneer.php">Doneer</a></li>
+            </ul>
         </div>
 
         <div>
             <ul>
-                <li><a href="https://www.instagram.com/groenlinks/"><i class="fa-brands fa-instagram"></a></i></li>
-                <li><a href="https://www.facebook.com/groenlinks/"><i class="fa-brands fa-facebook"></a></i></li>
-                <li><a href="https://twitter.com/groenlinks"><i class="fa-brands fa-twitter"></a></i></li>
+                <li><a href="leden.php">Onze Leden</a></li>
+                <li><a href="standpunten.php">Standpunten</a></li>
+                <li><a href="contact_us.php">Contact Us</a></li>
             </ul>
-        
-        
+        </div>
+
+        <div>
+            <ul>
+                <li><a href="">Adres</a></li>
+                <li><a href="">Telefoonummer</a></li>
+            </ul>
+        </div>
+
+        <div>
+            <ul>
+                <li><a href="https://www.instagram.com/groenlinks/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/groenlinks/"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/groenlinks"><i class="fa-brands fa-twitter"></i></a></li>
+            </ul>
         </div>
     </footer>
 </body>
