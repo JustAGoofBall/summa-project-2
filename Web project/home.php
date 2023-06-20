@@ -8,7 +8,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GroenLinks</title>
-    <link rel="stylesheet" type="text/CSS" href="CSS/universal.css">
+    <link rel="stylesheet" type="text/CSS" href="CSS/alles.css">
+
     <script src="https://kit.fontawesome.com/a4d79bb58d.js" crossorigin="anonymous"></script>
 
 </head>
@@ -46,6 +47,7 @@
                 <h2>Kleinere bierbrouwers hebben het zwaar door hoge kosten
                     <br>
                     <br>
+                    <br>
                 </h2>
                 <img src="Img/boeren.jpg" alt="">
                 <button>Lees meer</button>
@@ -64,6 +66,7 @@
             </div>
             <div class="card">
                 <h2>Ziekmelden om extreme hooikoorts, patiënten snakken naar regen</h2>
+                <br>
                 <img src="Img/vrouw_snuiten.jpg" alt="">
                 <button>Lees meer</button>
             </div>
