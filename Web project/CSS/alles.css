@@ -345,3 +345,101 @@ input[type=date] {
 }
 
 /* standpunten */
+
+
+
+/* popups*/
+
+.popup-container
+{
+    position: fixed;
+    width: 100vw;
+    height: 120vh;
+    background-color: rgba(0,0,0,0.7);
+    z-index:1;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+
+}
+.popup
+{
+    position: relative;
+    bottom: 25%;
+    width: 50%;
+    height: 50%;
+    background: #fff;
+    display: flex;
+    z-index: 2;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+
+}
+.popup img
+{
+    width: 50%;
+    position: relative;
+    left: 25
+;
+}
+
+.popup-container.active
+{
+transform: scale(1);
+    transition: all 800ms ease;  
+}
+/*.popup .overlay
+{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.7);
+    z-index:1;
+    display: block;
+}
+.popup .content
+{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    background: #fff;
+    width: 450px;
+    height: 220px;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.popup .close-btn
+{
+    position: relative;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    background-color: #222;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.popup.active .overlay
+{
+display: block;
+}
+
+/*.popup.active .content
+{
+    transform: translate(-50%, -50%) scale(1);
+    transition: all 800ms ease;
+
+}
+/* popups*/

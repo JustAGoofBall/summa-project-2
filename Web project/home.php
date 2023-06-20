@@ -9,12 +9,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GroenLinks</title>
     <link rel="stylesheet" type="text/CSS" href="CSS/alles.css">
-
+<script src="JS/Alles.js"></script>
     <script src="https://kit.fontawesome.com/a4d79bb58d.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
+<div class="popup-container" id="popup1" >
+    <div class="popup">
+        <div class="close">
+        <i class="fa-sharp fa-regular fa-xmark" onclick="togglepopup()" ></i>
+        </div>
+        <img src="Img/boeren.jpg" alt="">
+    <h1>Popup</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, fugit placeat minus accusamus quos, sed dolorum autem blanditiis, 
+        eius velit maiores. Accusamus dolorem ut hic similique quas. Praesentium, impedit amet!</p>
+    </div>
+    </div>
     <header>
         <nav>
             <a href="home.php"><img src="Img/GroenLinks_logo.png" alt=""></a>
@@ -26,9 +37,14 @@
                 <li><a href="contact_us.php">Contact us</a></li>
             </ul>
         </nav>
+        
     </header>
-
+    
     <main>
+
+
+
+
         <h1>DE GROOTSTE LINKSE PARTIJ IN <span>NEDERLAND</span></h1>
         <div class="container">
             <img src="Img/jesse_klaver_duimpje.jpg" alt="">
@@ -43,12 +59,12 @@
             <h2>NIEUWS</h2>
         </div>
         <div class="container1">
-            <div class="card">
+            <div class="card" >
                 <h2>Kleinere bierbrouwers hebben het zwaar door hoge kosten
                 </h2>
                 <br>
                 <img src="Img/boeren.jpg" alt="">
-                <button>Lees meer</button>
+                <button onclick="togglepopup()">Lees meer</button>
             </div>
 
             <div class="card">
