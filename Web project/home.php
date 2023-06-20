@@ -45,10 +45,8 @@
         <div class="container1">
             <div class="card">
                 <h2>Kleinere bierbrouwers hebben het zwaar door hoge kosten
-                    <br>
-                    <br>
-                    <br>
                 </h2>
+                <br>
                 <img src="Img/boeren.jpg" alt="">
                 <button>Lees meer</button>
             </div>
@@ -66,7 +64,6 @@
             </div>
             <div class="card">
                 <h2>Ziekmelden om extreme hooikoorts, patiënten snakken naar regen</h2>
-                <br>
                 <img src="Img/vrouw_snuiten.jpg" alt="">
                 <button>Lees meer</button>
             </div>
