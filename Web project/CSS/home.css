@@ -288,3 +288,18 @@ footer ul li a:hover{
 {
     border-radius: 15px;
 }
+.Img1
+{
+    max-height: 80%;
+}
+.container6
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.myTable td
+{
+    border: 1px solid black;
+}
