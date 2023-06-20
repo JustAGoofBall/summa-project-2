@@ -1,3 +1,17 @@
+<?php
+if (isset($_POST['submit'])) {
+    $submit = $_POST['submit'];
+
+    if ($submit) {
+        echo '<script> alert("Dank u voor u bericht"); </script>';
+    } else {
+        echo '<script> alert("error"); </script>';
+    }
+    
+}
+?>
+
+
 <!DOCTYPE html>
 <html lang="nl">
 
@@ -42,6 +56,14 @@
             <input type="submit" class="btn">
         </form>
 
+<<<<<<< Updated upstream
+=======
+        <label for="">Bericht:</label>
+        <textarea name="bericht" id="bericht" cols="30" rows="10" required></textarea>
+        <input type="submit" class="btn" name="submit">
+    </form>
+    
+>>>>>>> Stashed changes
     </main>
     <footer>
         <div>
