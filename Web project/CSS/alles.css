@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Candara;
 }
 
 .logo{
@@ -38,16 +39,16 @@ nav ul li
 }
 nav ul li a
 {
-    color: white;
+    color: black;
     font-size: 20px;
     text-transform: uppercase;
-    border-radius: 3px;
+    border-radius: 15px;
     list-style: none;
     text-decoration: none;
 }
 nav a:hover
 {
-    background: #1b9bff;
+    background: #fff;
     transition: .5s;
 }
 .checkbtn
@@ -95,10 +96,8 @@ nav a:hover
 
 main h1 {
     text-transform: uppercase;
-    letter-spacing: 0.12em;
     text-align: center;
     margin-top: 2%;
-    font-weight: 600;
     color: lightcoral;
 }
 
@@ -619,7 +618,7 @@ transform: scale(1);
     transform: scale(1);
     transition: all 800ms ease;  
 }
-
+/*popups*/
 @media (max-width: 992px)
 {
     .checkbtn
@@ -638,6 +637,7 @@ transform: scale(1);
         color: white;
     }
     nav ul{
+        color: white;
         position: absolute;
         width: 100%;
         height: 100vh;
@@ -656,6 +656,7 @@ transform: scale(1);
     }
     nav ul li a {
         font-size: 20px;
+        color: white;
     }
     
    nav a:hover{
