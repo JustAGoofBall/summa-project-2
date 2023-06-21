@@ -12,7 +12,7 @@
 <body>
     <header>
         <nav>
-            <a href="home.php"><img src="Img/GroenLinks_logo.png" alt=""></a>
+            <a href="home.php"><img src="Img/GroenLinks_logo.png" id="groenlinkslogo" alt=""></a>
             <ul>
                 <li><a href="standpunten.php">Standpunten</a></li>
                 <li><a href="leden.php">Onze leden</a></li>

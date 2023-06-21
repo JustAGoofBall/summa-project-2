@@ -23,14 +23,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $statement->bindParam(':achternaam', $achternaam);
     $statement->bindParam(':bedrag', $bedrag);
     $statement->bindParam(':voornaam', $voornaam);
-    $statement->execute();
 
     if ($statement->execute()) {
         echo '<script> alert("Payment successful.") </script>';
     } else {
         echo '<script> alert("Error.") </script>';
     }
-
+    header("location: doneer.php");
+    exit();
 }
 ?>
 
@@ -49,7 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body>
     <header>
         <nav>
-            <a href="home.php"><img src="Img/GroenLinks_logo.png" alt=""></a>
+            <a href="home.php"><img src="Img/GroenLinks_logo.png" id="groenlinkslogo" alt=""></a>
             <ul>
                 <li><a href="standpunten.php">Standpunten</a></li>
                 <li><a href="leden.php">Onze leden</a></li>
@@ -79,12 +79,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <br>
 
                     <input type="submit" class="btn">
-                    
+
                     <br>
 
                 </form>
                 <div class="Donators">
-                <h2>TOP 5 DONATORS</h2>
+                    <h2>TOP 5 DONATORS</h2>
                 </div>
                 <div class="container6">
 
@@ -100,7 +100,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             <?php foreach ($input as $inputs) : ?>
                                 <tr>
                                     <td><?php echo $inputs['Voornaam'], ' ', $inputs['Achternaam']; ?></td>
-                                    <td><?php echo $inputs['Bedrag'], '€'; ?></td>
+                                    <td><?php echo '€', $inputs['Bedrag'], ',-'; ?></td>
                                 </tr>
                             <?php endforeach; ?>
                         </tbody>
