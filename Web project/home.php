@@ -285,9 +285,9 @@
             <span class="btn1"><a href="standpunten.php">Bekijk hier al onze standpunten</a></span>
         </div>
     </main>
-
-    <footer>
-        <div>
+    <div class="footer-container">
+<footer>
+         <div >
             <ul>
                 <li><a href="home.php">Home</a></li>
                 <li><a href="Word_lid.php">Word Lid</a></li>
@@ -317,7 +317,8 @@
                 <li><a href="https://twitter.com/groenlinks"><i class="fa-brands fa-twitter"></i></a></li>
             </ul>
         </div>
-    </footer>
-</body>
+        </footer>   
+        </div>
+    </body>
 
 </html>
