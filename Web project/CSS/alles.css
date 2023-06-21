@@ -543,42 +543,12 @@ input[type=date] {
 {
     height: 100%;
 }
-#close
+#close,#close1,#close2,#close3
 {
     color: #ef233c;
 
 }
-#close:hover
-{
-    cursor: pointer;
-}
-
-#close1
-{
-    color: #ef233c;
-
-}
-#close1:hover
-{
-    cursor: pointer;
-}
-
-#close2
-{
-    color: #ef233c;
-
-}
-#close2:hover
-{
-    cursor: pointer;
-}
-
-#close3
-{
-    color: #ef233c;
-
-}
-#close3:hover
+#close:hover,#close1:hover,#close2:hover,#close3:hover
 {
     cursor: pointer;
 }

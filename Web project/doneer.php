@@ -100,7 +100,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                             <?php foreach ($input as $inputs) : ?>
                                 <tr>
                                     <td><?php echo $inputs['Voornaam'], ' ', $inputs['Achternaam']; ?></td>
-                                    <td><?php echo $inputs['Bedrag'], '€'; ?></td>
+                                    <td><?php echo '€', $inputs['Bedrag'], ',-'; ?></td>
                                 </tr>
                             <?php endforeach; ?>
                         </tbody>
