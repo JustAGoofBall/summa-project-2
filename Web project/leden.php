@@ -7,15 +7,13 @@
     <title>Onze leden</title>
     <link rel="stylesheet" type="text/CSS" href="CSS/alles.css">
     <link rel="stylesheet" type="text/CSS" href="CSS/leden.css">
-
     <script src="https://kit.fontawesome.com/a4d79bb58d.js" crossorigin="anonymous"></script>
-
 </head>
 
 <body>
     <header>
         <nav>
-            <a href="home.php"><img src="Img/GroenLinks_logo.png" alt=""></a>
+            <a href="home.php"><img src="Img/GroenLinks_logo.png" id="groenlinkslogo" alt=""></a>
             <ul>
                 <li><a href="standpunten.php">Standpunten</a></li>
                 <li><a href="leden.php">Onze leden</a></li>
