@@ -83,8 +83,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <br>
 
                 </form>
+                <div class="Donators">
+                <h2>TOP 5 DONATORS</h2>
+                </div>
                 <div class="container6">
-                    <h2>TOP 5 DONATORS</h2>
 
                     <table class="myTable">
 

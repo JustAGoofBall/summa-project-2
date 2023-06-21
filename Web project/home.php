@@ -225,9 +225,10 @@ Ter Beest kan in ieder geval niet wachten tot de eerste druppels vallen: "Het is
         </div>
         <div class="container1">
             <div class="card" >
-                <h2>Kleinere bierbrouwers hebben het zwaar door hoge kosten
+                <h2>Kleinere bierbrouwers
+                    <br> hebben het
+                    <br> zwaar door hoge kosten
                 </h2>
-                <br>
                 <img src="Img/boeren.jpg" alt="">
                 <button onclick="togglepopup()">Lees meer</button>
             </div>
