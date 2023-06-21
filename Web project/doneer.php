@@ -4,6 +4,8 @@ include 'php/connection.php';
 $input = [];
 $statement1 = $conn->query("SELECT Voornaam, Achternaam, Bedrag FROM donatietabel ORDER BY Bedrag DESC LIMIT 5");
 $input = $statement1->fetchAll(PDO::FETCH_ASSOC);
+
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (isset($_POST['Voornaam'])) {
         $voornaam = $_POST['Voornaam'];
@@ -11,11 +13,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if (isset($_POST['Achternaam'])) {
         $achternaam = $_POST['Achternaam'];
+        
     }
 
     if (isset($_POST['Bedrag'])) {
         $bedrag = $_POST['Bedrag'];
     }
+   
+
 
     $query = "INSERT INTO donatietabel (Achternaam, Bedrag, Voornaam) VALUES (:achternaam, :bedrag, :voornaam)";
 
@@ -23,16 +28,25 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $statement->bindParam(':achternaam', $achternaam);
     $statement->bindParam(':bedrag', $bedrag);
     $statement->bindParam(':voornaam', $voornaam);
+    $statement->execute();
+    
+        
+        if($bedrag > 0)
+        {
+            echo "hallo";
+        }else{
+            echo "error";
+        }
 
-    if ($statement->execute()) {
-        echo '<script> alert("Payment successful.") </script>';
-    } else {
-        echo '<script> alert("Error.") </script>';
-    }
-    header("location: doneer.php");
-    exit();
+   
+}
+if (isset($_POST['submit'])) {
+
+header('location: doneer.php');
+exit;
 }
 ?>
+
 
 <!DOCTYPE html>
 <html lang="nl">
@@ -88,7 +102,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <input type="number" name="Bedrag" id="Bedrag" required>
                     <br>
 
-                    <input type="submit" class="btn">
+                    <input type="submit" class="btn" name="submit" >
 
                     <br>
 
