@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Standpunten</title>
     <link rel="stylesheet" type="text/CSS" href="CSS/alles.css">
+    <link rel="stylesheet" type="text/CSS" href="CSS/standpunten.css">
     <script src="JS/Alles.js"></script>
-
     <script src="https://kit.fontawesome.com/a4d79bb58d.js" crossorigin="anonymous"></script>
 
 </head>
@@ -40,7 +40,6 @@
             klimaatcrisis en de wooncrisis aanpakken en zorgen voor een sterke publieke sector.</p>
 
         <div class="container5">
-
             <div class="card1">
                 <img src="Img/protest_3man.jpg" alt="">
                 <h2>GROTE VERVUILERS AANPAKKEN</h2>
