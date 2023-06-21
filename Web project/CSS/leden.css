@@ -70,5 +70,16 @@ h4 {
         margin-right: 20px;
     }
 }
-
 /* Phone */
+
+/* tablet */
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+
+}
+/* tablet */
+
+/* desktop en groter */
+@media only screen and (min-width: 993px) {
+
+}
+/* desktop */
