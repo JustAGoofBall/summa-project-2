@@ -367,7 +367,7 @@ input[type=date] {
 
 .myTable {
     border-collapse: collapse;
-    width: 50%;
+    width: 100%;
     text-align: center;
   }
   
@@ -378,8 +378,9 @@ input[type=date] {
   }
   
   .myTable td:hover {
-    background-color: lightblue;
-    cursor: pointer;
+    background-color: lightcoral;
+    color: white;
+        cursor: pointer;
   }
   .myTable th {
     border: 1px solid black;

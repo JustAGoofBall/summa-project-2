@@ -5,6 +5,14 @@ main{
 /* Phone */
 @media only screen and (max-width: 600px) {
 
+    main h1
+    {
+        font-size: 10vw;
+    }
+    main p 
+    {
+        font-size: 5vw;
+    }
     .container5 {
         width: 100%;
         margin-top: 5%;
@@ -13,6 +21,10 @@ main{
         grid-template-rows: auto;
         gap: 10px;
         text-align: center;
+    }
+    .card1 h2 
+    {
+        font-size: 5vw;
     }
 }
 /* Phone */
@@ -28,6 +40,18 @@ main{
         grid-template-rows: auto;
         gap: 10px;
         text-align: center;
+    }
+    main h1
+    {
+        font-size: 10vw;
+    }
+    main p 
+    {
+        font-size: 3vw;
+    }
+    .card1 h2 
+    {
+        font-size: 2vw;
     }
 }
 /* Phone */
