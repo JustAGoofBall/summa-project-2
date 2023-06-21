@@ -25,7 +25,7 @@ if (isset($_POST['submit'])) {
 
 </head>
 
-<body>
+<body id="body">
 <header>
         
         <a href="home.php"><img src="Img/GroenLinks_logo.png" alt="" class="logo"></a>

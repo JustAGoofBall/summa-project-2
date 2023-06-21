@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GroenLinks</title>
     <link rel="stylesheet" type="text/CSS" href="CSS/alles.css">
+    <link rel="stylesheet" type="text/CSS" href="CSS/home.css">
     <script src="JS/Alles.js"></script>
     <script src="https://kit.fontawesome.com/a4d79bb58d.js" crossorigin="anonymous"></script>
 

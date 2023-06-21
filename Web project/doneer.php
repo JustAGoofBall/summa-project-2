@@ -47,7 +47,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 </head>
 
-<body>
+<body id="body">
 <header>
         
         <a href="home.php"><img src="Img/GroenLinks_logo.png" alt="" class="logo"></a>

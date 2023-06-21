@@ -10,8 +10,8 @@
     <script src="https://kit.fontawesome.com/a4d79bb58d.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-<header>
+<body id="body">
+<header >
         
         <a href="home.php"><img src="Img/GroenLinks_logo.png" alt="" class="logo"></a>
         <nav >
