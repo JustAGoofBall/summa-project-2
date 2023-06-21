@@ -706,6 +706,11 @@ transform: scale(1);
     {
      margin-top: 50%;
     }
+    .logo 
+   {
+    width: 50%;
+    margin-left: 25%;
+   }
 }
 
 @media only screen and (max-width: 600px) {
@@ -742,5 +747,10 @@ transform: scale(1);
     footer-container
     {
      margin-top: 50%;
+    }
+    .logo 
+    {
+     width: 75%;
+     margin-left: 15%;
     }
 }
