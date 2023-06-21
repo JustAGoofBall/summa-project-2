@@ -100,6 +100,7 @@ main h1 span {
 
 body {
     background: linear-gradient(210deg, #21ff51 50%, #fff 50%);
+    background-repeat: no-repeat;
 }
 
 #europe_img {
