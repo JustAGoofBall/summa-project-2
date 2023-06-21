@@ -23,14 +23,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $statement->bindParam(':achternaam', $achternaam);
     $statement->bindParam(':bedrag', $bedrag);
     $statement->bindParam(':voornaam', $voornaam);
-    $statement->execute();
 
     if ($statement->execute()) {
         echo '<script> alert("Payment successful.") </script>';
     } else {
         echo '<script> alert("Error.") </script>';
     }
-
+    header("location: doneer.php");
+    exit();
 }
 ?>
 
@@ -79,12 +79,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <br>
 
                     <input type="submit" class="btn">
-                    
+
                     <br>
 
                 </form>
                 <div class="Donators">
-                <h2>TOP 5 DONATORS</h2>
+                    <h2>TOP 5 DONATORS</h2>
                 </div>
                 <div class="container6">
 
