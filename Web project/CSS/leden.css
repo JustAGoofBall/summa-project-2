@@ -3,6 +3,10 @@ main {
     margin-right: 100px;
 }
 
+html{
+    overflow-x: hidden;
+}
+
 .eerstekamer-leden,
 .tweedekamer-leden,
 .Europees-parlement {
