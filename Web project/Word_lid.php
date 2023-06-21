@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Word lid</title>
     <link rel="stylesheet" type="text/CSS" href="CSS/alles.css">
+    <link rel="stylesheet" type="text/CSS" href="CSS/word_lid.css">
+
     <script src="JS/Alles.js"></script>
     <script src="https://kit.fontawesome.com/a4d79bb58d.js" crossorigin="anonymous"></script>
 </head>
@@ -34,7 +36,7 @@
         <div class="container3">
             <img src="Img/groepleden.jpg" alt="">
             <h1>SLUIT JE AAN BIJ ONZE BEWEGING!</h1>
-            <div class="card">
+            <div class="card1">
                 <p>
                     Wij weten dat het kan: een eerlijk, groen en zorgzaam Nederland.
                     Een inclusieve samenleving, waarin iedereen niet alleen gelijkwaardig is,
@@ -44,7 +46,7 @@
             </div>
         </div>
 
-        <h2>Persoonsgegevens:</h2>
+        <h2 id="persoon">Persoonsgegevens:</h2>
         <form action="Word_lid.php" method="POST" id="Form1">
 
             <label for="Voornaam">Voornaam:</label>

@@ -19,6 +19,8 @@ if (isset($_POST['submit'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link rel="stylesheet" type="text/CSS" href="CSS/alles.css">
+    <link rel="stylesheet" type="text/CSS" href="CSS/contact_us.css">
+
     <script src="JS/Alles.js"></script>
 
     <script src="https://kit.fontawesome.com/a4d79bb58d.js" crossorigin="anonymous"></script>

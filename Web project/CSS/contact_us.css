@@ -1,36 +1,36 @@
-* {
-    margin: 0;
-    padding: 0;
+
+@media only screen and (max-width: 600px) {
+    .mainitto h1 {
+        font-size: 40px;
+    }
+    .mainitto label {
+        font-size: 20px;
+
+    }
+    #Form {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 15px;
+}
 }
 
-header img {
-    width: 30%;
+@media only screen and (min-width: 601px) and (max-width: 992px) {
+
+    .mainitto h1 {
+        font-size: 40px;
+    }
+    .mainitto label {
+        font-size: 20px;
+
+    }
+    #Form {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 15px;
+}
 }
 
-header ul {
-    margin-top: 2%;
-}
-
-header ul li {
-    display: inline-block;
-    text-decoration: none;
-    list-style: none;
-    font-size: 18px;
-    float: right;
-    margin-top: 2%;
-    margin-right: 2%;
-}
-
-header ul li a {
-    text-decoration: none;
-    list-style: none;
-    color: #000;
-    text-transform: uppercase;
-    letter-spacing: 0.12em;
-    padding: 5px 10px;
-    border-radius: 15px;
-}
-
-header ul li a:hover {
-    background-color: #fff;
-}
