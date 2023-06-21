@@ -13,25 +13,25 @@
 </head>
 
 <body id="body">
-<header>
-        
-        <a href="home.php"><img src="Img/GroenLinks_logo.png" alt="" class="logo"></a>
-        <nav >
-        <input type="checkbox" id="check" onchange='handleChange(this);'>
-         <label for="check" class="checkbtn">
-             <i class="fas fa-bars"></i>
-         </label>
-        <ul>
-        
-             <li><a href="standpunten.php" class="active">Standpunten</a></li>
-             <li><a href="leden.php">Onze leden</a></li>
-             <li><a href="doneer.php">Doneer</a></li>
-             <li><a href="Word_lid.php">Word lid</a></li>
-             <li><a href="contact_us.php">Contact us</a></li>
-         </ul>
-         </nav>
+    <header>
 
- </header>
+        <a href="home.php"><img src="Img/GroenLinks_logo.png" alt="" class="logo"></a>
+        <nav>
+            <input type="checkbox" id="check" onchange='handleChange(this);'>
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul>
+
+                <li><a href="standpunten.php" class="active">Standpunten</a></li>
+                <li><a href="leden.php">Onze leden</a></li>
+                <li><a href="doneer.php">Doneer</a></li>
+                <li><a href="Word_lid.php">Word lid</a></li>
+                <li><a href="contact_us.php">Contact us</a></li>
+            </ul>
+        </nav>
+
+    </header>
     <main class="ee">
 
         <h1>STANDPUNTEN</h1>
@@ -86,8 +86,8 @@
 
         <div>
             <ul>
-                <li><a href="">Adres</a></li>
-                <li><a href="">Telefoonummer</a></li>
+                <li>Adres:<br><a href="https://www.google.com/maps/search/St+Jacobsstraat+12,+3511+BS+Utrecht">St Jacobsstraat 12, 3511 BS Utrecht</a></li>
+                <li>Telefoonnummer:<br><a href="tel:+31302399900">(030) 2 39 99 00</a></li>
             </ul>
         </div>
 
