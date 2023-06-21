@@ -11,18 +11,25 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="home.php"><img src="Img/GroenLinks_logo.png" id="groenlinkslogo" alt=""></a>
-            <ul>
-                <li><a href="standpunten.php">Standpunten</a></li>
-                <li><a href="leden.php">Onze leden</a></li>
-                <li><a href="doneer.php">Doneer</a></li>
-                <li><a href="Word_lid.php">Word lid</a></li>
-                <li><a href="contact_us.php">Contact us</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+        
+        <a href="home.php"><img src="Img/GroenLinks_logo.png" alt="" class="logo"></a>
+        <nav >
+        <input type="checkbox" id="check" onchange='handleChange(this);'>
+         <label for="check" class="checkbtn">
+             <i class="fas fa-bars"></i>
+         </label>
+        <ul>
+        
+             <li><a href="standpunten.php" class="active">Standpunten</a></li>
+             <li><a href="leden.php">Onze leden</a></li>
+             <li><a href="doneer.php">Doneer</a></li>
+             <li><a href="Word_lid.php">Word lid</a></li>
+             <li><a href="contact_us.php">Contact us</a></li>
+         </ul>
+         </nav>
+
+ </header>
     <main class="ee">
 
         <h1>STANDPUNTEN</h1>
