@@ -10,7 +10,7 @@ main {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(auto);
     grid-column-gap: 10px;
-    grid-row-gap: 10px;
+    grid-row-gap: 15px;
     margin-top: 1%;
 }
 
@@ -19,4 +19,14 @@ h3,
 h4 {
     font-size: 300%;
     margin-top: 5%;
+}
+
+.leden-card {
+    text-align: center;
+    background: #e0e0e0;
+   
+}
+
+.leden-card img {
+    width: 100%;
 }

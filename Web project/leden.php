@@ -29,92 +29,92 @@
         <h1>ONZE LEDEN</h1>
         <h2>Eerste kamer</h2>
         <div class="eerstekamer-leden">
-            <div class="card">
+            <div class="leden-card">
                 <img src="ledenfoto's/Eerstekamer/Paul_Rosenmöller_portret_.jpg" alt="">
                 <p>Paul Rosenmöller</p>
             </div>
-            <div class="card">
+            <div class="leden-card">
                 <img src="ledenfoto's/Eerstekamer/Farah_Karimi.jpg" alt="">
                 <p>Farah Karimi</p>
             </div>
-            <div class="card">
+            <div class="leden-card">
                 <img src="ledenfoto's/Eerstekamer/Gala_Veldhoen_Eerste_Kamer.jpg" alt="">
                 <p>Gala Veldhoen</p>
             </div>
-            <div class="card">
+            <div class="leden-card">
                 <img src="ledenfoto's/Eerstekamer/Margreet_de_Boer.jpg" alt="">
                 <p>Margreet de Boer</p>
             </div>
-            <div class="card">
+            <div class="leden-card">
                 <img src="ledenfoto's/Eerstekamer/Mirjam_Krijnen.jpeg" alt="">
                 <p>Mirjam Krijnen</p>
             </div>
-            <div class="card">
+            <div class="leden-card">
                 <img src="ledenfoto's/Eerstekamer/Roel_van_Gurp.jpg" alt="">
                 <p>Roel van Gurp</p>
             </div>
-            <div class="card">
+            <div class="leden-card">
                 <img src="ledenfoto's/Eerstekamer/Ruard_Ganzevoort.jpg" alt="">
                 <p>Ruard Ganzevoort</p>
             </div>
-            <div class="card">
+            <div class="leden-card">
                 <img src="ledenfoto's/Eerstekamer/Saskia_Kluit.jpg" alt="">
                 <p>Saskia Kluit</p>
             </div>
         </div>
         <h3>Tweede kamer</h3>
         <div class="tweedekamer-leden">
-            <div class="card">
+            <div class="leden-card">
                 <img src="ledenfoto's/Tweedekamer/Jesse_Klaver_portret.jpg" alt="">
                 <p>Jesse Klaver</p>
             </div>
 
-            <div class="card">
+            <div class="leden-card">
                 <img src="ledenfoto's/Tweedekamer/Corinne_Ellemeet_portret.jpg" alt="">
                 <p>Corinne Ellemeet</p>
             </div>
 
-            <div class="card">
+            <div class="leden-card">
                 <img src="ledenfoto's/Tweedekamer/Kauthar_Lotte_Dale.jpg" alt="">
                 <p>Kauthar Bouchallikht</p>
             </div>
 
-            <div class="card">
+            <div class="leden-card">
                 <img src="ledenfoto's/Tweedekamer/Laura_Bromet.jpg" alt="">
                 <p>Laura Bromet</p>
             </div>
 
-            <div class="card">
+            <div class="leden-card">
                 <img src="ledenfoto's/Tweedekamer/Lisa_Westerveld_portret.jpg" alt="">
                 <p>Lisa Westerveld</p>
             </div>
 
-            <div class="card">
+            <div class="leden-card">
                 <img src="ledenfoto's/Tweedekamer/Senna_Maatoug_Portret.jpg" alt="">
                 <p>Senna Maatoug</p>
             </div>
 
-            <div class="card">
+            <div class="leden-card">
                 <img src="ledenfoto's/Tweedekamer/Suzanne_Kroger_portret.jpg" alt="">
                 <p>Suzanne Kroger</p>
             </div>
 
-            <div class="card">
+            <div class="leden-card">
                 <img src="ledenfoto's/Tweedekamer/Tom_van_der_Lee.jpg" alt="">
                 <p>Tom van der Lee</p>
             </div>
         </div>
         <h4>Europees parlement</h4>
         <div class="Europees-parlement">
-            <div class="card">
+            <div class="leden-card">
                 <img src="ledenfoto's/Europees-parlement/Bas_Eickhout.jpg" alt="">
                 <p>Bas Eickhout</p>
             </div>
-            <div class="card">
+            <div class="leden-card">
                 <img src="ledenfoto's/Europees-parlement/Kim_van_Sparrentak.jpg" alt="">
                 <p>Kim van Sparrentak</p>
             </div>
-            <div class="card">
+            <div class="leden-card">
                 <img src="ledenfoto's/Europees-parlement/Tineke_Strik.jpg" alt="">
                 <p>Tineke Strik</p>
             </div>
