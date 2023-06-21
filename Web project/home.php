@@ -14,7 +14,7 @@
 
 </head>
 
-<body>
+<body id="body">
 <div class="popup-container" id="popup1" >
     <div class="popup">
     <i class="fa-solid fa-rectangle-xmark" id="close" onclick="togglepopup()"></i>
@@ -192,17 +192,23 @@ Ter Beest kan in ieder geval niet wachten tot de eerste druppels vallen: "Het is
 
 
     <header>
-        <nav>
-            <a href="home.php"><img src="Img/GroenLinks_logo.png" alt=""></a>
-            <ul>
-                <li><a href="standpunten.php">Standpunten</a></li>
+        
+           <a href="home.php"><img src="Img/GroenLinks_logo.png" alt="" class="logo"></a>
+           <nav >
+           <input type="checkbox" id="check" onchange='handleChange(this);'>
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+           <ul>
+           
+                <li><a href="standpunten.php" class="active">Standpunten</a></li>
                 <li><a href="leden.php">Onze leden</a></li>
                 <li><a href="doneer.php">Doneer</a></li>
                 <li><a href="Word_lid.php">Word lid</a></li>
                 <li><a href="contact_us.php">Contact us</a></li>
             </ul>
-        </nav>
-        
+            </nav>
+
     </header>
     
     <main>
