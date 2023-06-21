@@ -86,8 +86,8 @@ if (isset($_POST['submit'])) {
 
         <div>
             <ul>
-                <li><a href="">Adres</a></li>
-                <li><a href="">Telefoonummer</a></li>
+                <li>Adres:<br><a href="https://www.google.com/maps/search/St+Jacobsstraat+12,+3511+BS+Utrecht">St Jacobsstraat 12, 3511 BS Utrecht</a></li>
+                <li>Telefoonnummer:<br><a href="tel:+31302399900">(030) 2 39 99 00</a></li>
             </ul>
         </div>
 
