@@ -34,16 +34,7 @@
     </header>
     <main class="main1">
         <div class="container3">
-            <img src="Img/groepleden.jpg" alt="">
             <h1>SLUIT JE AAN BIJ ONZE BEWEGING!</h1>
-            <div class="card1">
-                <p>
-                    Wij weten dat het kan: een eerlijk, groen en zorgzaam Nederland.
-                    Een inclusieve samenleving, waarin iedereen niet alleen gelijkwaardig is,
-                    maar ook zo wordt behandeld. Voor
-                    een land waarin de hoop het wint van de angst, de vernieuwing van de status quo, en eerlijk delen van egoïsme.
-                </p>
-            </div>
         </div>
 
         <h2 id="persoon">Persoonsgegevens:</h2>

@@ -235,6 +235,7 @@ footer ul li a:hover {
     grid-template-columns: 0.1fr 1fr;
     grid-template-rows: repeat(3, 1fr);
     gap: 15px;
+
     font-size: 25px;
 }
 
@@ -287,8 +288,8 @@ footer ul li a:hover {
 .container3 {
     margin-top: 5%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
     text-align: center;
 }
 
