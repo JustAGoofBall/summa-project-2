@@ -36,7 +36,7 @@
         <div class="container3">
             <h1>SLUIT JE AAN BIJ ONZE BEWEGING!</h1>
         </div>
-
+         
         <h2 id="persoon">Persoonsgegevens:</h2>
         <form action="Word_lid.php" method="POST" id="Form1">
 
