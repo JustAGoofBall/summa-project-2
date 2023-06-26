@@ -13,15 +13,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if (isset($_POST['Achternaam'])) {
         $achternaam = $_POST['Achternaam'];
-        
     }
 
     if (isset($_POST['Bedrag'])) {
         $bedrag = $_POST['Bedrag'];
         echo "<h1>hallo</h1>";
     }
-   
-    if ($bedrag > 0){
+
+    if ($bedrag > 0) {
         $query = "INSERT INTO donatietabel (Achternaam, Bedrag, Voornaam) VALUES (:achternaam, :bedrag, :voornaam)";
 
         $statement = $conn->prepare($query);
@@ -32,13 +31,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 }
 if (isset($_POST['submit'])) {
-    if($bedrag > 0)
-    {
+    if ($bedrag > 0) {
         header('location: IsGelukt.php');
-    }else{
+    } else {
         header('location: Error.php');
     }
-exit;
+    exit;
 }
 ?>
 
@@ -96,7 +94,7 @@ exit;
                     <input type="number" name="Bedrag" id="Bedrag" required>
                     <br>
 
-                    <input type="submit" class="btn" name="submit" >
+                    <input type="submit" class="btn" name="submit">
 
                     <br>
 
