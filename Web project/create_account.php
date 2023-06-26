@@ -30,9 +30,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" type="text/CSS" href="CSS/login.css">
 
 <head>
     <title>Registreer gebruiker</title>
+    <img src="Img/GroenLinks_logo.png" alt="">
 </head>
 
 <body>
@@ -67,7 +69,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </form>
         </div>
         <div>
-            <a href="index.php">Ga terug</a>
+            <a href="index.php"><button>Ga terug</button></a>
         </div>
     </div>
 </body>

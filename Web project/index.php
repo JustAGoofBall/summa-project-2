@@ -4,9 +4,11 @@ include 'php/connection.php';
 
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" type="text/CSS" href="CSS/login.css">
 
 <head>
     <title>Login</title>
+    <img src="Img/GroenLinks_logo.png" alt="">
 </head>
 
 <body>
