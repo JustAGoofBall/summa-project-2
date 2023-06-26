@@ -18,31 +18,26 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if (isset($_POST['Bedrag'])) {
         $bedrag = $_POST['Bedrag'];
+        echo "<h1>hallo</h1>";
     }
    
+    if ($bedrag > 0){
+        $query = "INSERT INTO donatietabel (Achternaam, Bedrag, Voornaam) VALUES (:achternaam, :bedrag, :voornaam)";
 
-
-    $query = "INSERT INTO donatietabel (Achternaam, Bedrag, Voornaam) VALUES (:achternaam, :bedrag, :voornaam)";
-
-    $statement = $conn->prepare($query);
-    $statement->bindParam(':achternaam', $achternaam);
-    $statement->bindParam(':bedrag', $bedrag);
-    $statement->bindParam(':voornaam', $voornaam);
-    $statement->execute();
-    
-        
-        if($bedrag > 0)
-        {
-            echo "hallo";
-        }else{
-            echo "error";
-        }
-
-   
+        $statement = $conn->prepare($query);
+        $statement->bindParam(':achternaam', $achternaam);
+        $statement->bindParam(':bedrag', $bedrag);
+        $statement->bindParam(':voornaam', $voornaam);
+        $statement->execute();
+    }
 }
 if (isset($_POST['submit'])) {
-
-header('location: doneer.php');
+    if($bedrag > 0)
+    {
+        header('location: IsGelukt.php');
+    }else{
+        header('location: Error.php');
+    }
 exit;
 }
 ?>
