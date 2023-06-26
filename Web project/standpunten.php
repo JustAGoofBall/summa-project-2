@@ -9,12 +9,10 @@
     <link rel="stylesheet" type="text/CSS" href="CSS/standpunten.css">
     <script src="JS/Alles.js"></script>
     <script src="https://kit.fontawesome.com/a4d79bb58d.js" crossorigin="anonymous"></script>
-
 </head>
 
 <body id="body">
     <header>
-
         <a href="home.php"><img src="Img/GroenLinks_logo.png" alt="" class="logo"></a>
         <nav>
             <input type="checkbox" id="check" onchange='handleChange(this);'>
@@ -22,7 +20,6 @@
                 <i class="fas fa-bars"></i>
             </label>
             <ul>
-
                 <li><a href="standpunten.php" class="active">Standpunten</a></li>
                 <li><a href="leden.php">Onze leden</a></li>
                 <li><a href="doneer.php">Doneer</a></li>
@@ -33,12 +30,11 @@
 
     </header>
     <main class="ee">
-
         <h1>STANDPUNTEN</h1>
         <p>Wij strijden voor een inclusieve samenleving waarin we solidair zijn met elkaar én
             met volgende generaties. Een eerlijk Nederland waarin we de
-            klimaatcrisis en de wooncrisis aanpakken en zorgen voor een sterke publieke sector.</p>
-
+            klimaatcrisis en de wooncrisis aanpakken en zorgen voor een sterke publieke sector.
+        </p>
         <div class="container5">
             <div class="card1">
                 <img src="Img/protest_3man.jpg" alt="">
@@ -65,7 +61,6 @@
                 <h2>RECHTVAARDIGE WERELD</h2>
             </div>
         </div>
-
     </main>
     <footer>
         <div>

@@ -7,14 +7,12 @@
     <title>Word lid</title>
     <link rel="stylesheet" type="text/CSS" href="CSS/alles.css">
     <link rel="stylesheet" type="text/CSS" href="CSS/word_lid.css">
-
     <script src="JS/Alles.js"></script>
     <script src="https://kit.fontawesome.com/a4d79bb58d.js" crossorigin="anonymous"></script>
 </head>
 
 <body id="body">
     <header>
-
         <a href="home.php"><img src="Img/GroenLinks_logo.png" alt="" class="logo"></a>
         <nav>
             <input type="checkbox" id="check" onchange='handleChange(this);'>
@@ -22,7 +20,6 @@
                 <i class="fas fa-bars"></i>
             </label>
             <ul>
-
                 <li><a href="standpunten.php" class="active">Standpunten</a></li>
                 <li><a href="leden.php">Onze leden</a></li>
                 <li><a href="doneer.php">Doneer</a></li>
@@ -36,7 +33,7 @@
         <div class="container3">
             <h1>SLUIT JE AAN BIJ ONZE BEWEGING!</h1>
         </div>
-         
+
         <h2 id="persoon">Persoonsgegevens:</h2>
         <form action="Word_lid.php" method="POST" id="Form1">
 
@@ -69,7 +66,6 @@
 
             <input type="submit" class="btn">
         </form>
-
     </main>
     <footer>
         <div>

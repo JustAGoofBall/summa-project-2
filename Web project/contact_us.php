@@ -10,7 +10,6 @@ if (isset($_POST['submit'])) {
 }
 ?>
 
-
 <!DOCTYPE html>
 <html lang="nl">
 
@@ -28,29 +27,27 @@ if (isset($_POST['submit'])) {
 </head>
 
 <body id="body">
-<header>
-        
+    <header>
         <a href="home.php"><img src="Img/GroenLinks_logo.png" alt="" class="logo"></a>
-        <nav >
-        <input type="checkbox" id="check" onchange='handleChange(this);'>
-         <label for="check" class="checkbtn">
-             <i class="fas fa-bars"></i>
-         </label>
-        <ul>
-        
-             <li><a href="standpunten.php" class="active">Standpunten</a></li>
-             <li><a href="leden.php">Onze leden</a></li>
-             <li><a href="doneer.php">Doneer</a></li>
-             <li><a href="Word_lid.php">Word lid</a></li>
-             <li><a href="contact_us.php">Contact us</a></li>
-         </ul>
-         </nav>
+        <nav>
+            <input type="checkbox" id="check" onchange='handleChange(this);'>
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul>
 
- </header>
+                <li><a href="standpunten.php" class="active">Standpunten</a></li>
+                <li><a href="leden.php">Onze leden</a></li>
+                <li><a href="doneer.php">Doneer</a></li>
+                <li><a href="Word_lid.php">Word lid</a></li>
+                <li><a href="contact_us.php">Contact us</a></li>
+            </ul>
+        </nav>
+
+    </header>
     <main class="mainitto">
         <h1>Contact Us</h1>
         <form action="contact_us.php" method="POST" id="Form">
-
             <label for="Voornaam">Voornaam:</label>
             <input type="text" name="Voornaam" id="Voornaam" required>
 
@@ -60,12 +57,11 @@ if (isset($_POST['submit'])) {
             <label for="e-mail">e-mail:</label>
             <input type="email" name="e-mail" id="e-mail" required>
 
-
             <label for="bericht">Bericht:</label>
             <textarea name="bericht" id="bericht" cols="30" rows="10" required></textarea>
+
             <input type="submit" class="btn">
         </form>
-
     </main>
     <footer>
         <div>

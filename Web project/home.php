@@ -12,7 +12,6 @@
     <link rel="stylesheet" type="text/CSS" href="CSS/home.css">
     <script src="JS/Alles.js"></script>
     <script src="https://kit.fontawesome.com/a4d79bb58d.js" crossorigin="anonymous"></script>
-
 </head>
 
 <body id="body">
@@ -60,8 +59,7 @@
                 Niet lang daarna kreeg de club verschillende meldingen van seksueel grensoverschrijdend gedrag van de jeugdtrainer. De club meldt dat er
                 "op dit moment geen aanwijzingen zijn dat dit gedrag ook fysiek heeft plaatsgevonden".</p>
             <h2>Twee aangiftes</h2>
-            <p>HFC zegt geschokt te zijn door de meldingen. Er zijn zeker vier meldingen binnengekomen, van twee daarvan is aangifte gedaan bij de politie.
-
+            <p>HFC zegt geschokt te zijn door de meldingen. Er zijn zeker vier meldingen binnengekomen, van twee daarvan is aangifte gedaan bij de politie. 
                 De meldingen zijn doorgezet naar het Instituut Sportrechtspraak (ISR),
                 dat een onderzoek is begonnen. HFC meldt verder dat de jeugdtrainer van
                 de KNVB geen trainingen meer mag geven en

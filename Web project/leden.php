@@ -13,7 +13,6 @@
 
 <body id="body">
     <header>
-
         <a href="home.php"><img src="Img/GroenLinks_logo.png" alt="" class="logo"></a>
         <nav>
             <input type="checkbox" id="check" onchange='handleChange(this);'>
@@ -21,7 +20,6 @@
                 <i class="fas fa-bars"></i>
             </label>
             <ul>
-
                 <li><a href="standpunten.php" class="active">Standpunten</a></li>
                 <li><a href="leden.php">Onze leden</a></li>
                 <li><a href="doneer.php">Doneer</a></li>
@@ -29,7 +27,6 @@
                 <li><a href="contact_us.php">Contact us</a></li>
             </ul>
         </nav>
-
     </header>
     <main>
         <h1>ONZE LEDEN</h1>
@@ -74,37 +71,30 @@
                 <img src="ledenfoto's/Tweedekamer/Jesse_Klaver_portret.jpg" alt="">
                 <p>Jesse Klaver</p>
             </div>
-
             <div class="leden-card">
                 <img src="ledenfoto's/Tweedekamer/Corinne_Ellemeet_portret.jpg" alt="">
                 <p>Corinne Ellemeet</p>
             </div>
-
             <div class="leden-card">
                 <img src="ledenfoto's/Tweedekamer/Kauthar_Lotte_Dale.jpg" alt="">
                 <p>Kauthar Bouchallikht</p>
             </div>
-
             <div class="leden-card">
                 <img src="ledenfoto's/Tweedekamer/Laura_Bromet.jpg" alt="">
                 <p>Laura Bromet</p>
             </div>
-
             <div class="leden-card">
                 <img src="ledenfoto's/Tweedekamer/Lisa_Westerveld_portret.jpg" alt="">
                 <p>Lisa Westerveld</p>
             </div>
-
             <div class="leden-card">
                 <img src="ledenfoto's/Tweedekamer/Senna_Maatoug_Portret.jpg" alt="">
                 <p>Senna Maatoug</p>
             </div>
-
             <div class="leden-card">
                 <img src="ledenfoto's/Tweedekamer/Suzanne_Kroger_portret.jpg" alt="">
                 <p>Suzanne Kroger</p>
             </div>
-
             <div class="leden-card">
                 <img src="ledenfoto's/Tweedekamer/Tom_van_der_Lee.jpg" alt="">
                 <p>Tom van der Lee</p>
