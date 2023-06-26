@@ -1,26 +1,32 @@
 <?php
 include 'php/connection.php';
+$dsn = "mysql:host=$server;port=$port;dbname=$dbname";
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $naam = $_POST['username'];
-    $wachtwoord = $_POST['password'];
+    $naam = $_POST['voornaam'];
+    $achternaam = $_POST['achternaam'];
+    $adres = $_POST['adres'];
+    $email = $_POST['email'];
+    $telefoonnummer = $_POST['telefoonnummer'];
+    $woonplaats = $_POST['woonplaats'];
+    $wachtwoord = $_POST['wachtwoord'];
 
     try {
-        $connection = new PDO($connectionString, $username, $password);
+        $connection = new PDO($dsn, $username, $password);
         $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-        $sql = "SELECT COUNT(*) FROM gebruikerstabel WHERE Voornaam = ?";
+        $sql = "SELECT COUNT(*) FROM gebruikerstabel WHERE email = ?";
         $statement = $connection->prepare($sql);
-        $statement->execute([$naam]);
+        $statement->execute([$email]);
         $count = $statement->fetchColumn();
 
         if ($count > 0) {
-            echo "Deze gebruikersnaam is al in gebruik, gebruik een andere gebruikersnaam.";
+            echo "Dit e-mailadres is al in gebruik, gebruik een ander e-mailadres.";
         } else {
-            $sql = "INSERT INTO playertabel (Voornaam, wachtwoord) VALUES (?, ?)";
+            $sql = "INSERT INTO gebruikerstabel (voornaam, achternaam, adres, email, telefoonnummer, woonplaats, wachtwoord) VALUES (?, ?, ?, ?, ?, ?, ?)";
             $statement = $connection->prepare($sql);
-            $statement->execute([$naam, $wachtwoord]);
-            echo "Your account has successfully been created.";
+            $statement->execute([$naam, $achternaam, $adres, $email, $telefoonnummer, $woonplaats, $wachtwoord]);
+            echo "Your account has been successfully created.";
         }
     } catch (PDOException $e) {
         echo "Error: " . $e->getMessage();
@@ -38,7 +44,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 
 <body>
-    <div class="parent">
+    <div>
         <div>
             <h1>Registreer gebruiker</h1>
         </div>
@@ -56,7 +62,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
 
-                <label for="telefoonnummer">telefoonnummer:</label>
+                <label for="telefoonnummer">Telefoonnummer:</label>
                 <input type="tel" id="telefoonnummer" name="telefoonnummer" required>
 
                 <label for="woonplaats">Woonplaats:</label>
