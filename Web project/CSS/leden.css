@@ -25,7 +25,7 @@ h4 {
 .leden-card {
     text-align: center;
     background: #e0e0e0;
-
+    border: 5px solid rgb(24, 199, 24);
 }
 
 .leden-card img {

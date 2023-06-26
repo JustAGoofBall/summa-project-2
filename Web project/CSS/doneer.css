@@ -1,40 +1,43 @@
 @media only screen and (max-width: 600px) {
-    .container4 {
-        margin-top: 5%;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        gap: 100px;
-    }
-    
-    .container4 img {
-        width: 100%;   
-    }
-    input[type=text],
-input[type=number],
-input[type=email],
-input[type=date] {
+  .container4 {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 100px;
+  }
+
+  .container4 img {
+    width: 100%;
+  }
+
+  input[type=text],
+  input[type=number],
+  input[type=email],
+  input[type=date] {
     width: 100%;
     border-radius: 15px;
     margin: 5px;
-}
-.myTable {
+  }
+
+  .myTable {
     border-collapse: collapse;
     width: 100%;
     text-align: center;
   }
-  
+
   .myTable td {
     border: 1px solid black;
     padding: 12px;
     background-color: #f2f2f2;
   }
-  
+
   .myTable td:hover {
     background-color: lightcoral;
     color: white;
     cursor: pointer;
   }
+
   .myTable th {
     border: 1px solid black;
     padding: 8px;
@@ -43,43 +46,47 @@ input[type=date] {
     color: #fff;
   }
 }
+
 @media only screen and (min-width: 601px) and (max-width: 992px) {
-    .container4 {
-        margin-top: 5%;
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        gap: 100px;
-    }
-    
-    .container4 img {
-        width: 100%;   
-    }
-    input[type=text],
-input[type=number],
-input[type=email],
-input[type=date] {
+  .container4 {
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 100px;
+  }
+
+  .container4 img {
+    width: 100%;
+  }
+
+  input[type=text],
+  input[type=number],
+  input[type=email],
+  input[type=date] {
     width: 70%;
     border-radius: 15px;
     margin: 5px;
-}
-.myTable {
+  }
+
+  .myTable {
     border-collapse: collapse;
     width: 100%;
     text-align: center;
   }
-  
+
   .myTable td {
     border: 1px solid black;
     padding: 12px;
     background-color: #f2f2f2;
   }
-  
+
   .myTable td:hover {
     background-color: lightcoral;
     color: white;
     cursor: pointer;
   }
+
   .myTable th {
     border: 1px solid black;
     padding: 8px;
