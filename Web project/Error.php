@@ -9,6 +9,5 @@
 <body>
     <h1>Doneer een getal boven de nul</h1>
     <a href="doneer.php"><button>Ga Terug</button></a>
-
 </body>
 </html>

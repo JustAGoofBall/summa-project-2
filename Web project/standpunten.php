@@ -24,6 +24,8 @@
                 <li><a href="leden.php">Onze leden</a></li>
                 <li><a href="doneer.php">Doneer</a></li>
                 <li><a href="contact_us.php">Contact us</a></li>
+                <li><a href="profiel.php">Profiel</a></li>
+                <li><a href="uitloggen.php">Uitloggen</a></li>
             </ul>
         </nav>
 
