@@ -2,10 +2,14 @@
     margin: 5px;
 }
 
+html {
+    background-color: rgb(51, 186, 51);
+}
+
 body {
     text-align: center;
     overflow: hidden;
-    background-color: #e8e8e8;
+    background-color: rgb(51, 186, 51);
 }
 
 body img {
@@ -60,6 +64,7 @@ body button:hover {
     width: 300px;
     background-color: #fff;
     border-radius: 25px;
+    border: green solid 5px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -71,7 +76,7 @@ body button:hover {
         position: relative;
         width: 70%;
         left: 15%;
-        background-color: #fff;
+        background-color: #ffffff;
         border-radius: 25px;
     }
 }
