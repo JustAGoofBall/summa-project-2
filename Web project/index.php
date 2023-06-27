@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['email']) && isset($_P
             header("Location: home.php");
             exit();
         } else {
-            echo "Verkeerde E-mail of Wachtwoord.";
+            echo '<script> alert("Vul een juiste e-mail of wachtwoord") </script>';
         }
     } catch (PDOException $message) {
         echo "Error: " . $message->getMessage();
@@ -43,11 +43,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['email']) && isset($_P
 </head>
 
 <body>
-    <div>
-        <div>
-            <h1>Inloggen</h1>
-        </div>
-        <div>
+    <div class="card">
+            <h1>Inloggen</h1>        
             <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
                 <label for="email">E-mail:</label>
                 <input type="email" id="email" name="email" required>
@@ -55,10 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['email']) && isset($_P
                 <input type="password" id="wachtwoord" name="wachtwoord" required>
                 <button type="submit" name="login">Login</button>
             </form>
-        </div>
-        <div>
-            <a href="create_account.php" class="create-account">Create Account</a>
-        </div>
+            <a href="create_account.php" class="create-account"><button class="Acc">Create Account</button></a>
     </div>
 </body>
 

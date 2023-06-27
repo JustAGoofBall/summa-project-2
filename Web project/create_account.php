@@ -21,12 +21,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $count = $statement->fetchColumn();
 
         if ($count > 0) {
-            echo "Dit e-mailadres is al in gebruik, gebruik een ander e-mailadres.";
+            echo '<script> alert("Dit e-mailadres is al in gebruik, gebruik een ander e-mailadres.") </script>';
         } else {
             $sql = "INSERT INTO gebruikerstabel (voornaam, achternaam, adres, email, telefoonnummer, woonplaats, wachtwoord) VALUES (?, ?, ?, ?, ?, ?, ?)";
             $statement = $connection->prepare($sql);
             $statement->execute([$naam, $achternaam, $adres, $email, $telefoonnummer, $woonplaats, $wachtwoord]);
-            echo "Your account has been successfully created.";
+            echo '<script> alert("Je hebt je account aangemaakt") </script>';
         }
     } catch (PDOException $e) {
         echo "Error: " . $e->getMessage();
@@ -44,11 +44,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 
 <body>
-    <div>
-        <div>
+    <div class="card">
             <h1>Registreer gebruiker</h1>
-        </div>
-        <div>
             <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
                 <label for="voornaam">Voornaam:</label>
                 <input type="text" id="voornaam" name="voornaam" required>
@@ -73,10 +70,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                 <button type="submit" name="create" class="button">Create</button>
             </form>
-        </div>
-        <div>
             <a href="index.php"><button>Ga terug</button></a>
-        </div>
     </div>
 </body>
 

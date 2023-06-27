@@ -20,12 +20,12 @@
                 <i class="fas fa-bars"></i>
             </label>
             <ul>
-                <li><a href="standpunten.php" class="active">Standpunten</a></li>
+            <li><a href="standpunten.php" class="active">Standpunten</a></li>
                 <li><a href="leden.php">Onze leden</a></li>
                 <li><a href="doneer.php">Doneer</a></li>
                 <li><a href="contact_us.php">Contact us</a></li>
-                <li><a href="profiel.php">Profiel</a></li>
                 <li><a href="uitloggen.php">Uitloggen</a></li>
+                <li><a href="profiel.php"><i class="fa-solid fa-user"></i></a></li>
             </ul>
         </nav>
     </header>

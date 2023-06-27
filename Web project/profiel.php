@@ -42,12 +42,14 @@ try {
 
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" type="text/CSS" href="CSS/login.css">
 
 <head>
     <title>Profiel</title>
 </head>
 
 <body>
+    <div class="card">
     <h1>Profiel</h1>
     <h2>User Information</h2>
     <p>Email: <?php echo $user['Email']; ?></p>
@@ -68,6 +70,7 @@ try {
     <form action="home.php">
         <button type="submit">Go Back to Home</button>
     </form>
+    </div>
 </body>
 
 </html>

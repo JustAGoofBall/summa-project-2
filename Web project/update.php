@@ -40,12 +40,14 @@ try {
 
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" type="text/CSS" href="CSS/login.css">
 
 <head>
     <title>Update Profiel</title>
 </head>
 
 <body>
+    <div class="card">
     <h1>Update Profiel</h1>
     <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
         <label for="voornaam">Voornaam:</label>
@@ -68,8 +70,9 @@ try {
 
         <button type="submit" name="update">Update</button>
     </form>
-    <a href="home.php">Ga terug naar Home</a>
-    <a href="profiel.php">Ga terug naar profiel</a>
+    <a href="home.php"><button class="Acc">Ga terug naar Home</button></a>
+    <a href="profiel.php"><button class="Acc">Ga terug naar profiel</button></a>
+    </div>
 </body>
 
 </html>

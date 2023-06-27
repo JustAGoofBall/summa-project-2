@@ -202,8 +202,8 @@
                 <li><a href="leden.php">Onze leden</a></li>
                 <li><a href="doneer.php">Doneer</a></li>
                 <li><a href="contact_us.php">Contact us</a></li>
-                <li><a href="profiel.php">Profiel</a></li>
                 <li><a href="uitloggen.php">Uitloggen</a></li>
+                <li><a href="profiel.php"><i class="fa-solid fa-user"></i></a></li>
             </ul>
         </nav>
     </header>

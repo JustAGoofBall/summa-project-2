@@ -6,6 +6,7 @@ body
 {
 text-align: center;
 overflow: hidden;
+background-color: #e8e8e8;
 }
 body img{
     width: 50%;
@@ -51,4 +52,12 @@ body button:hover
     box-shadow: inset 0 0 0 0 #ef233c;
     border-color: #ef233c;
     cursor: pointer;
+}
+.card
+{
+    position: relative;
+    left: 40%;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 25px;
 }
