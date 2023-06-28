@@ -1,4 +1,4 @@
-@media only screen and (min-width: 601px) and (max-width: 992px)  {
+@media only screen and (min-width: 601px) and (max-width: 992px) {
     .container3 {
         margin-top: 5%;
         display: grid;
@@ -7,40 +7,42 @@
         text-align: center;
         margin: 5%;
     }
-    .container3 img 
-    {
+
+    .container3 img {
         width: 100%;
     }
+
     .container3 h1 {
         color: black;
         font-size: 5vw;
     }
-    
+
     .container3 p {
         font-size: 22px;
     }
-    
-    
+
+
     #Form1 {
         margin-top: 3%;
         display: grid;
-        grid-template-columns: 0.1fr 1fr ;
+        grid-template-columns: 0.1fr 1fr;
         grid-template-rows: auto;
         gap: 10px;
     }
-    
+
     #Form1 input[type=submit] {
         grid-row: 10;
         grid-column: 2;
     }
-    #persoon
-    {
+
+    #persoon {
         font-size: 30px;
     }
-    
-    
+
+
 
 }
+
 @media only screen and (max-width: 600px) {
     .container3 {
         margin-top: 5%;
@@ -50,35 +52,35 @@
         text-align: center;
         margin: 5%;
     }
-    .container3 img 
-    {
+
+    .container3 img {
         width: 100%;
     }
+
     .container3 h1 {
         color: black;
         font-size: 5vw;
     }
-    
+
     .container3 p {
         font-size: 22px;
     }
-    
-    #persoon
-    {
+
+    #persoon {
         font-size: 30px;
     }
-    
+
     #Form1 {
         margin-top: 3%;
         display: grid;
-        grid-template-columns:  1fr ;
+        grid-template-columns: 1fr;
         grid-template-rows: auto;
         gap: 10px;
     }
-    
+
     #Form1 input[type=submit] {
         grid-row: 20;
         grid-column: 1;
     }
-    
+
 }

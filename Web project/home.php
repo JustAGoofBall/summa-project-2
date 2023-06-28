@@ -59,7 +59,7 @@
                 Niet lang daarna kreeg de club verschillende meldingen van seksueel grensoverschrijdend gedrag van de jeugdtrainer. De club meldt dat er
                 "op dit moment geen aanwijzingen zijn dat dit gedrag ook fysiek heeft plaatsgevonden".</p>
             <h2>Twee aangiftes</h2>
-            <p>HFC zegt geschokt te zijn door de meldingen. Er zijn zeker vier meldingen binnengekomen, van twee daarvan is aangifte gedaan bij de politie. 
+            <p>HFC zegt geschokt te zijn door de meldingen. Er zijn zeker vier meldingen binnengekomen, van twee daarvan is aangifte gedaan bij de politie.
                 De meldingen zijn doorgezet naar het Instituut Sportrechtspraak (ISR),
                 dat een onderzoek is begonnen. HFC meldt verder dat de jeugdtrainer van
                 de KNVB geen trainingen meer mag geven en
@@ -187,9 +187,6 @@
         </div>
     </div>
 
-
-
-
     <header>
         <a href="home.php"><img src="Img/GroenLinks_logo.png" alt="" class="logo"></a>
         <nav>
@@ -209,10 +206,6 @@
     </header>
 
     <main>
-
-
-
-
         <h1>DE GROOTSTE LINKSE PARTIJ IN <span>NEDERLAND</span></h1>
         <div class="container">
             <img src="Img/jesse_klaver_duimpje.jpg" alt="">

@@ -1,18 +1,19 @@
-main{
+main {
     margin-left: 4%;
     margin-right: 4%;
 }
+
 /* Phone */
 @media only screen and (max-width: 600px) {
 
-    main h1
-    {
+    main h1 {
         font-size: 10vw;
     }
-    main p 
-    {
+
+    main p {
         font-size: 5vw;
     }
+
     .container5 {
         width: 100%;
         margin-top: 5%;
@@ -22,15 +23,16 @@ main{
         gap: 10px;
         text-align: center;
     }
-    .card1 h2 
-    {
+
+    .card1 h2 {
         font-size: 5vw;
     }
 }
+
 /* Phone */
 
 /* Phone */
-@media only screen and (min-width: 601px) and (max-width: 992px)  {
+@media only screen and (min-width: 601px) and (max-width: 992px) {
 
     .container5 {
         width: 100%;
@@ -41,17 +43,18 @@ main{
         gap: 10px;
         text-align: center;
     }
-    main h1
-    {
+
+    main h1 {
         font-size: 10vw;
     }
-    main p 
-    {
+
+    main p {
         font-size: 3vw;
     }
-    .card1 h2 
-    {
+
+    .card1 h2 {
         font-size: 2vw;
     }
 }
+
 /* Phone */

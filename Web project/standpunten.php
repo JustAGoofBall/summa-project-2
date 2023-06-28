@@ -20,7 +20,7 @@
                 <i class="fas fa-bars"></i>
             </label>
             <ul>
-            <li><a href="standpunten.php" class="active">Standpunten</a></li>
+                <li><a href="standpunten.php" class="active">Standpunten</a></li>
                 <li><a href="leden.php">Onze leden</a></li>
                 <li><a href="doneer.php">Doneer</a></li>
                 <li><a href="contact_us.php">Contact us</a></li>

@@ -1,19 +1,20 @@
-
 @media only screen and (max-width: 600px) {
     .mainitto h1 {
         font-size: 40px;
     }
+
     .mainitto label {
         font-size: 20px;
 
     }
+
     #Form {
         width: 100%;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         gap: 15px;
-}
+    }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 992px) {
@@ -21,18 +22,21 @@
     .mainitto h1 {
         font-size: 40px;
     }
+
     .mainitto label {
         font-size: 20px;
 
     }
+
     #Form {
         width: 100%;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         gap: 15px;
+    }
 }
-}
-html{
+
+html {
     overflow-x: hidden;
 }

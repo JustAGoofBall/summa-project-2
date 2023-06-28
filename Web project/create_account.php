@@ -45,32 +45,32 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <body>
     <div class="card">
-            <h1>Registreer gebruiker</h1>
-            <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-                <label for="voornaam">Voornaam:</label>
-                <input type="text" id="voornaam" name="voornaam" required>
+        <h1>Registreer gebruiker</h1>
+        <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+            <label for="voornaam">Voornaam:</label>
+            <input type="text" id="voornaam" name="voornaam" required>
 
-                <label for="achternaam">Achternaam:</label>
-                <input type="text" id="achternaam" name="achternaam" required>
+            <label for="achternaam">Achternaam:</label>
+            <input type="text" id="achternaam" name="achternaam" required>
 
-                <label for="adres">Adres:</label>
-                <input type="text" id="adres" name="adres" required>
+            <label for="adres">Adres:</label>
+            <input type="text" id="adres" name="adres" required>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
 
-                <label for="telefoonnummer">Telefoonnummer:</label>
-                <input type="tel" id="telefoonnummer" name="telefoonnummer" required>
+            <label for="telefoonnummer">Telefoonnummer:</label>
+            <input type="tel" id="telefoonnummer" name="telefoonnummer" required>
 
-                <label for="woonplaats">Woonplaats:</label>
-                <input type="text" id="woonplaats" name="woonplaats" required>
+            <label for="woonplaats">Woonplaats:</label>
+            <input type="text" id="woonplaats" name="woonplaats" required>
 
-                <label for="wachtwoord">Wachtwoord:</label>
-                <input type="password" id="wachtwoord" name="wachtwoord" required>
+            <label for="wachtwoord">Wachtwoord:</label>
+            <input type="password" id="wachtwoord" name="wachtwoord" required>
 
-                <button type="submit" name="create" class="button">Create</button>
-            </form>
-            <a href="index.php"><button>Ga terug</button></a>
+            <button type="submit" name="create" class="button">Aanmaken</button>
+        </form>
+        <a href="index.php"><button>Ga terug</button></a>
     </div>
 </body>
 

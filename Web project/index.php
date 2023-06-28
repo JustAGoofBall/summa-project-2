@@ -44,15 +44,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['email']) && isset($_P
 
 <body>
     <div class="card">
-            <h1>Inloggen</h1>        
-            <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required>
-                <label for="wachtwoord">Wachtwoord:</label>
-                <input type="password" id="wachtwoord" name="wachtwoord" required>
-                <button type="submit" name="login">Login</button>
-            </form>
-            <a href="create_account.php" class="create-account"><button class="Acc">Create Account</button></a>
+        <h1>Inloggen</h1>
+        <form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="wachtwoord">Wachtwoord:</label>
+            <input type="password" id="wachtwoord" name="wachtwoord" required>
+            <button type="submit" name="login">Login</button>
+        </form>
+        <a href="create_account.php" class="create-account"><button class="Acc">Aanmaken</button></a>
     </div>
 </body>
 

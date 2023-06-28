@@ -48,30 +48,30 @@ try {
 
 <body>
     <div class="card">
-    <h1>Update Profiel</h1>
-    <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-        <label for="voornaam">Voornaam:</label>
-        <input type="text" id="voornaam" name="voornaam" value="<?php echo $user['Voornaam']; ?>" required><br>
+        <h1>Update Profiel</h1>
+        <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+            <label for="voornaam">Voornaam:</label>
+            <input type="text" id="voornaam" name="voornaam" value="<?php echo $user['Voornaam']; ?>" required><br>
 
-        <label for="achternaam">Achternaam:</label>
-        <input type="text" id="achternaam" name="achternaam" value="<?php echo $user['Achternaam']; ?>" required><br>
+            <label for="achternaam">Achternaam:</label>
+            <input type="text" id="achternaam" name="achternaam" value="<?php echo $user['Achternaam']; ?>" required><br>
 
-        <label for="adres">Adres:</label>
-        <input type="text" id="adres" name="adres" value="<?php echo $user['Adres']; ?>" required><br>
+            <label for="adres">Adres:</label>
+            <input type="text" id="adres" name="adres" value="<?php echo $user['Adres']; ?>" required><br>
 
-        <label for="telefoonnummer">Telefoonnummer:</label>
-        <input type="text" id="telefoonnummer" name="telefoonnummer" value="<?php echo $user['Telefoonnummer']; ?>" required><br>
+            <label for="telefoonnummer">Telefoonnummer:</label>
+            <input type="text" id="telefoonnummer" name="telefoonnummer" value="<?php echo $user['Telefoonnummer']; ?>" required><br>
 
-        <label for="wachtwoord">Wachtwoord:</label>
-        <input type="password" id="wachtwoord" name="wachtwoord" value="<?php echo $user['Wachtwoord']; ?>" required><br>
+            <label for="wachtwoord">Wachtwoord:</label>
+            <input type="password" id="wachtwoord" name="wachtwoord" value="<?php echo $user['Wachtwoord']; ?>" required><br>
 
-        <label for="woonplaats">Woonplaats:</label>
-        <input type="text" id="woonplaats" name="woonplaats" value="<?php echo $user['Woonplaats']; ?>" required><br>
+            <label for="woonplaats">Woonplaats:</label>
+            <input type="text" id="woonplaats" name="woonplaats" value="<?php echo $user['Woonplaats']; ?>" required><br>
 
-        <button type="submit" name="update">Update</button>
-    </form>
-    <a href="home.php"><button class="Acc">Ga terug naar Home</button></a>
-    <a href="profiel.php"><button class="Acc">Ga terug naar profiel</button></a>
+            <button type="submit" name="update">Update</button>
+        </form>
+        <a href="home.php"><button class="Acc">Ga terug naar Home</button></a>
+        <a href="profiel.php"><button class="Acc">Ga terug naar profiel</button></a>
     </div>
 </body>
 

@@ -50,26 +50,26 @@ try {
 
 <body>
     <div class="card">
-    <h1>Profiel</h1>
-    <h2>User Information</h2>
-    <p>Email: <?php echo $user['Email']; ?></p>
-    <p>Voornaam: <?php echo $user['Voornaam']; ?></p>
-    <p>Achternaam: <?php echo $user['Achternaam']; ?></p>
-    <p>Adres: <?php echo $user['Adres']; ?></p>
-    <p>Telefoonnummer: <?php echo $user['Telefoonnummer']; ?></p>
-    <p>Wachtwoord: <?php echo $user['Wachtwoord']; ?></p>
-    <p>Woonplaats: <?php echo $user['Woonplaats']; ?></p>
+        <h1>Profiel</h1>
+        <h2>User Information</h2>
+        <p>Email: <?php echo $user['Email']; ?></p>
+        <p>Voornaam: <?php echo $user['Voornaam']; ?></p>
+        <p>Achternaam: <?php echo $user['Achternaam']; ?></p>
+        <p>Adres: <?php echo $user['Adres']; ?></p>
+        <p>Telefoonnummer: <?php echo $user['Telefoonnummer']; ?></p>
+        <p>Wachtwoord: <?php echo $user['Wachtwoord']; ?></p>
+        <p>Woonplaats: <?php echo $user['Woonplaats']; ?></p>
 
-    <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-        <button type="submit" name="delete">Delete</button>
-        <button type="submit" name="update">Update Data</button>
-    </form>
+        <form method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+            <button type="submit" name="delete">Delete</button>
+            <button type="submit" name="update">Update Data</button>
+        </form>
 
-    <br>
+        <br>
 
-    <form action="home.php">
-        <button type="submit">Go Back to Home</button>
-    </form>
+        <form action="home.php">
+            <button type="submit">Go Back to Home</button>
+        </form>
     </div>
 </body>
 
