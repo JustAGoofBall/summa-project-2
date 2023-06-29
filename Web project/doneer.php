@@ -5,7 +5,6 @@ $input = [];
 $statement1 = $conn->query("SELECT Voornaam, Achternaam, Bedrag FROM donatietabel ORDER BY Bedrag DESC LIMIT 5");
 $input = $statement1->fetchAll(PDO::FETCH_ASSOC);
 
-
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (isset($_POST['Voornaam'])) {
         $voornaam = $_POST['Voornaam'];
@@ -21,15 +20,32 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
 
     if ($bedrag > 0) {
-        $query = "INSERT INTO donatietabel (Achternaam, Bedrag, Voornaam) VALUES (:achternaam, :bedrag, :voornaam)";
-
+        $query = "SELECT Bedrag FROM donatietabel WHERE Voornaam = :voornaam AND Achternaam = :achternaam";
         $statement = $conn->prepare($query);
-        $statement->bindParam(':achternaam', $achternaam);
-        $statement->bindParam(':bedrag', $bedrag);
         $statement->bindParam(':voornaam', $voornaam);
+        $statement->bindParam(':achternaam', $achternaam);
         $statement->execute();
+        $existingDonation = $statement->fetch(PDO::FETCH_ASSOC);
+
+        if ($existingDonation) {
+            $bedrag += $existingDonation['Bedrag'];
+            $updateQuery = "UPDATE donatietabel SET Bedrag = :bedrag WHERE Voornaam = :voornaam AND Achternaam = :achternaam";
+            $updateStatement = $conn->prepare($updateQuery);
+            $updateStatement->bindParam(':bedrag', $bedrag);
+            $updateStatement->bindParam(':voornaam', $voornaam);
+            $updateStatement->bindParam(':achternaam', $achternaam);
+            $updateStatement->execute();
+        } else {
+            $insertQuery = "INSERT INTO donatietabel (Achternaam, Bedrag, Voornaam) VALUES (:achternaam, :bedrag, :voornaam)";
+            $insertStatement = $conn->prepare($insertQuery);
+            $insertStatement->bindParam(':achternaam', $achternaam);
+            $insertStatement->bindParam(':bedrag', $bedrag);
+            $insertStatement->bindParam(':voornaam', $voornaam);
+            $insertStatement->execute();
+        }
     }
 }
+
 if (isset($_POST['submit'])) {
     if ($bedrag > 0) {
         header('location: IsGelukt.php');
@@ -40,7 +56,6 @@ if (isset($_POST['submit'])) {
 }
 ?>
 
-
 <!DOCTYPE html>
 <html lang="nl">
 
@@ -50,15 +65,12 @@ if (isset($_POST['submit'])) {
     <title>doneer</title>
     <link rel="stylesheet" type="text/CSS" href="CSS/alles.css">
     <link rel="stylesheet" type="text/CSS" href="CSS/doneer.css">
-
     <script src="JS/Alles.js"></script>
     <script src="https://kit.fontawesome.com/a4d79bb58d.js" crossorigin="anonymous"></script>
-
 </head>
 
 <body id="body">
     <header>
-
         <a href="home.php"><img src="Img/GroenLinks_logo.png" alt="" class="logo"></a>
         <nav>
             <input type="checkbox" id="check" onchange='handleChange(this);'>
@@ -74,7 +86,6 @@ if (isset($_POST['submit'])) {
                 <li><a href="profiel.php"><i class="fa-solid fa-user"></i></a></li>
             </ul>
         </nav>
-
     </header>
     <main>
         <div class="container4">
@@ -84,29 +95,21 @@ if (isset($_POST['submit'])) {
             <div>
                 <h1>DONEER AAN GROENLINKS</h1>
                 <form method="POST" action="doneer.php" id="Form2">
-
                     <label for="Voornaam">Voornaam</label>
                     <input type="text" name="Voornaam" id="Voornaam" required>
-
                     <label for="Achternaam">Achternaam</label>
                     <input type="text" name="Achternaam" id="Achternaam" required>
-
                     <label for="Bedrag">Bedrag</label>
                     <input type="number" name="Bedrag" id="Bedrag" required>
                     <br>
-
                     <input type="submit" class="btn" name="submit">
-
                     <br>
-
                 </form>
                 <div class="Donators">
                     <h2>TOP 5 DONATORS</h2>
                 </div>
                 <div class="container6">
-
                     <table class="myTable">
-
                         <thead>
                             <tr>
                                 <th>Naam</th>
@@ -124,9 +127,7 @@ if (isset($_POST['submit'])) {
                     </table>
                 </div>
             </div>
-
         </div>
-
     </main>
     <footer>
         <div>
@@ -136,7 +137,6 @@ if (isset($_POST['submit'])) {
                 <li><a href="doneer.php">Doneer</a></li>
             </ul>
         </div>
-
         <div>
             <ul>
                 <li><a href="leden.php">Onze Leden</a></li>
@@ -144,14 +144,12 @@ if (isset($_POST['submit'])) {
                 <li><a href="contact_us.php">Contact Us</a></li>
             </ul>
         </div>
-
         <div>
             <ul>
                 <li>Adres:<br><a href="https://www.google.com/maps/search/St+Jacobsstraat+12,+3511+BS+Utrecht">St Jacobsstraat 12, 3511 BS Utrecht</a></li>
                 <li>Telefoonnummer:<br><a href="tel:+31302399900">(030) 2 39 99 00</a></li>
             </ul>
         </div>
-
         <div>
             <ul>
                 <li><a href="https://www.instagram.com/groenlinks/"><i class="fa-brands fa-instagram"></i></a></li>
