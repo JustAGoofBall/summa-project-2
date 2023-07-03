@@ -5,7 +5,6 @@ $input = [];
 $statement1 = $conn->query("SELECT Voornaam, Achternaam, Bedrag FROM donatietabel ORDER BY Bedrag DESC LIMIT 5");
 $input = $statement1->fetchAll(PDO::FETCH_ASSOC);
 
-// Haal de meest recente donaties op
 $statement2 = $conn->query("SELECT Voornaam, Achternaam, Bedrag FROM donatietabel ORDER BY DonatieDatum	 DESC LIMIT 5");
 $input_recent = $statement2->fetchAll(PDO::FETCH_ASSOC);
 
@@ -154,13 +153,39 @@ if (isset($_POST['submit'])) {
             </div>
         </div>
     </main>
-    <footer>
-        <h2>Volg ons op social media!</h2>
-        <a href="#"><i class="fab fa-facebook-f"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-    </footer>
+    <div class="footer-container">
+        <footer>
+            <div>
+                <ul>
+                    <li><a href="home.php">Home</a></li>
+                    <li><a href="Word_lid.php">Word Lid</a></li>
+                    <li><a href="doneer.php">Doneer</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <li><a href="leden.php">Onze Leden</a></li>
+                    <li><a href="standpunten.php">Standpunten</a></li>
+                    <li><a href="contact_us.php">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <li>Adres:<br><a href="https://www.google.com/maps/search/St+Jacobsstraat+12,+3511+BS+Utrecht">St Jacobsstraat 12, 3511 BS Utrecht</a></li>
+                    <li>Telefoonnummer:<br><a href="tel:+31302399900">(030) 2 39 99 00</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <ul>
+                    <li><a href="https://www.instagram.com/groenlinks/"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com/groenlinks/"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/groenlinks"><i class="fa-brands fa-twitter"></i></a></li>
+                </ul>
+            </div>
+        </footer>
 </body>
 
 </html>
