@@ -14,10 +14,14 @@ try {
     $connection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     $email = $_SESSION['email'];
 
+//Session , met session kun je variabelen van een bepaalde user over heel de website gebruiken
+
     $sql = "SELECT * FROM gebruikerstabel WHERE Email = ?";
     $statement = $connection->prepare($sql);
     $statement->execute([$email]);
     $user = $statement->fetch(PDO::FETCH_ASSOC);
+
+    // === is een operator die blijft gelijk aan dezelfde data type een string of int bv. 
 
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if (isset($_POST['delete'])) {

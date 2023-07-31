@@ -2,11 +2,14 @@
 if (isset($_POST['submit'])) {
     $submit = $_POST['submit'];
 
-    if ($submit) {
-        echo '<script> alert("Dank u voor u bericht"); </script>';
-    } else {
-        echo '<script> alert("error"); </script>';
-    }
+        if($submit)
+        {
+            echo '<script> alert("Dank u voor u bericht"); </script>';
+        }
+        else{
+            echo '<script> alert("error"); </script>';
+
+        }
 }
 ?>
 
@@ -57,7 +60,7 @@ if (isset($_POST['submit'])) {
             <label for="bericht">Bericht:</label>
             <textarea name="bericht" id="bericht" cols="30" rows="10" required></textarea>
 
-            <input type="submit" class="btn">
+            <input type="submit" class="btn" name="submit">
         </form>
     </main>
     <footer>

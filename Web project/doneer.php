@@ -19,7 +19,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if (isset($_POST['Bedrag'])) {
         $bedrag = $_POST['Bedrag'];
-        echo "<h1>hallo</h1>";
     }
 
     if ($bedrag > 0) {
